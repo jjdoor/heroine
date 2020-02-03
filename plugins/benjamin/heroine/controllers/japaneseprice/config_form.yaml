@@ -1,0 +1,10 @@
+name: JapanesePrice
+form: $/benjamin/heroine/models/japaneseprice/fields.yaml
+modelClass: Benjamin\Heroine\Models\JapanesePrice
+defaultRedirect: benjamin/heroine/japaneseprice
+create:
+    redirect: 'benjamin/heroine/japaneseprice/update/:id'
+    redirectClose: benjamin/heroine/japaneseprice
+update:
+    redirect: benjamin/heroine/japaneseprice
+    redirectClose: benjamin/heroine/japaneseprice

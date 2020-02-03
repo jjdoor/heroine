@@ -1,0 +1,4 @@
+title: System
+modelClass: Benjamin\Heroine\Models\System
+toolbar:
+    buttons: reorder_toolbar

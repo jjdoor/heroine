@@ -1,0 +1,9 @@
+fields:
+    name:
+        label: 地址
+        span: auto
+        type: text
+    price:
+        label: 价格
+        span: auto
+        type: text

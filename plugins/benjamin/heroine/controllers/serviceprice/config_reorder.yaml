@@ -1,0 +1,4 @@
+title: ServicePrice
+modelClass: Benjamin\Heroine\Models\ServicePrice
+toolbar:
+    buttons: reorder_toolbar

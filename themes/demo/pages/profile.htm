@@ -8,6 +8,12 @@ identifierValue = "{{ :id }}"
 modelKeyColumn = "id"
 notFoundMessage = "Record not found"
 ==
+<?
+function onStart() {
+    $this['hello'] = "Hello world!";
+}
+?>
+==
 {% set member = record %}
 {% set gallerys = member.gallery %}
 <main id="sb-site" class="main_content">
@@ -46,16 +52,21 @@ notFoundMessage = "Record not found"
 							<div class="op">
 								<ul>
 									{% for recommend_service in recommend_services %}
-										<li class="ok bounceIn wow" data-wow-delay=".2s">{{recommend_service.name}}</li>
+										{% if recommend_service.is_selected %}
+											<li class="ok bounceIn wow" data-wow-delay=".2s">{{recommend_service.name}}</li>
+										{% else %}
+											<li class="ng bounceIn wow" data-wow-delay=".2s">{{recommend_service.name}}</li>
+
+										{% endif %}
 									{% endfor %}
-									<li class="ok bounceIn wow" data-wow-delay=".2s">パンスト</li>
+									<!--<li class="ok bounceIn wow" data-wow-delay=".2s">パンスト</li>
 									<li class="ng bounceIn wow" data-wow-delay=".3s">アナル舐め</li>
 									<li class="ng bounceIn wow" data-wow-delay=".1s">顔射</li>
 									<li class="ng bounceIn wow" data-wow-delay=".2s">ゴックン</li>
 									<li class="ok bounceIn wow" data-wow-delay=".3s">パンティー</li>
 									<li class="ng bounceIn wow" data-wow-delay=".1s">オナニー鑑賞</li>
 									<li class="ng bounceIn wow" data-wow-delay=".2s">聖水</li>
-									<li class="ok bounceIn wow" data-wow-delay=".3s">足コキ</li>
+									<li class="ok bounceIn wow" data-wow-delay=".3s">足コキ</li>-->
 								</ul>
 							</div>
 						</div>
@@ -63,32 +74,33 @@ notFoundMessage = "Record not found"
 							<div class="sche bounceIn wow" data-wow-delay=".1s">
 								<ul>
 									<li class="bd_e">
-										<div class="sche_th bg_p1 bd_e tx_w1">2/2(<span class="sun">日</span>)</div>
-										<div class="sche_td bd_e">14:00<br>～<br>03:00</div>
+										<div class="sche_th bg_p1 bd_e tx_w1">{{member.monday_date}}</div>
+										<div class="sche_td bd_e">{{member.monday|raw}}</div>
+									</li>
+
+									<li class="bd_e">
+										<div class="sche_th bg_p1 bd_e tx_w1">{{member.tuesday_date}}</div>
+										<div class="sche_td bd_e">{{member.tuesday|raw}}</div>
 									</li>
 									<li class="bd_e">
-										<div class="sche_th bg_p1 bd_e tx_w1">2/3(月)</div>
-										<div class="sche_td bd_e">14:00<br>～<br>03:00</div>
+										<div class="sche_th bg_p1 bd_e tx_w1">{{member.wednesday_date}}</div>
+										<div class="sche_td bd_e">{{member.wednesday|raw}}</div>
 									</li>
 									<li class="bd_e">
-										<div class="sche_th bg_p1 bd_e tx_w1">2/4(火)</div>
-										<div class="sche_td bd_e">14:00<br>～<br>03:00</div>
+										<div class="sche_th bg_p1 bd_e tx_w1">{{member.thursday_date}}</div>
+										<div class="sche_td bd_e">{{member.thursday|raw}}</div>
 									</li>
 									<li class="bd_e">
-										<div class="sche_th bg_p1 bd_e tx_w1">2/5(水)</div>
-										<div class="sche_td bd_e">14:00<br>～<br>03:00</div>
+										<div class="sche_th bg_p1 bd_e tx_w1">{{member.friday_date}}</div>
+										<div class="sche_td bd_e">{{member.friday|raw}}</div>
 									</li>
 									<li class="bd_e">
-										<div class="sche_th bg_p1 bd_e tx_w1">2/6(木)</div>
-										<div class="sche_td bd_e">14:00<br>～<br>03:00</div>
+										<div class="sche_th bg_p1 bd_e tx_w1">{{member.saturday_date}}</div>
+										<div class="sche_td bd_e">{{member.saturday|raw}}</div>
 									</li>
 									<li class="bd_e">
-										<div class="sche_th bg_p1 bd_e tx_w1">2/7(金)</div>
-										<div class="sche_td bd_e">14:00<br>～<br>03:00</div>
-									</li>
-									<li class="bd_e">
-										<div class="sche_th bg_p1 bd_e tx_w1">2/8(<span class="sat">土</span>)</div>
-										<div class="sche_td bd_e">14:00<br>～<br>03:00</div>
+										<div class="sche_th bg_p1 bd_e tx_w1">{{member.sunday_date}}</div>
+										<div class="sche_td bd_e">{{member.sunday|raw}}</div>
 									</li>
 								</ul>
 							</div>
@@ -102,46 +114,59 @@ notFoundMessage = "Record not found"
 						<div class="data">
 							<div class="data_l">
 								<table cellpadding="0" cellspacing="0" border="0" summary="data">
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									{% for service in services %}
+										{% if recommend_service.is_selected %}
+											<tr class="bounceInLeft wow" data-wow-delay=".1s">
+												<th class="tx_w1 bd_e">{{service.name}}</th>
+												<td class="bd_e">〇</td>
+											</tr>
+										{% else %}
+											<tr class="bounceInLeft wow" data-wow-delay=".1s">
+												<th class="tx_w1 bd_e">{{service.name}}</th>
+												<td class="bd_e">✖</td>
+											</tr>
+										{% endif %}
+									{% endfor %}
+									<!--<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">莞式</th>
 										<td class="bd_e">✖</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">毒龙钻</th>
 										<td class="bd_e">✖</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">69</th>
 										<td class="bd_e">✖</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">指入れ</th>
 										<td class="bd_e">✖</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">kiss</th>
 										<td class="bd_e">✖</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">口内射精</th>
 										<td class="bd_e">✖</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">3P</th>
 										<td class="bd_e">〇</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">生フェラ</th>
 										<td class="bd_e">〇</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">素股</th>
 										<td class="bd_e">〇</td>
 									</tr>
-									<tr class="bounceInLeft wow"" data-wow-delay=".1s">
+									<tr class="bounceInLeft wow" data-wow-delay=".1s">
 										<th class="tx_w1 bd_e">マッサージ</th>
 										<td class="bd_e">〇</td>
-									</tr>
+									</tr>-->
 								</table>
 							</div>
 							<div class="data_r bounceInRight wow" data-wow-delay=".2s">

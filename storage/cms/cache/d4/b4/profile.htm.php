@@ -1,5 +1,7 @@
 <?php 
-class Cms5e36c91044d14369128758_041d2a2a0b4de49add29d7a6ee542d9fClass extends Cms\Classes\PageCode
+class Cms5e381192650dd466827704_95b479ce030f35eb44dbbe378190017dClass extends Cms\Classes\PageCode
 {
-
+public function onStart() {
+    $this['hello'] = "Hello world!";
+}
 }

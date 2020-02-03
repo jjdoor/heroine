@@ -1,0 +1,18 @@
+fields:
+    open_hour:
+        label: 营业时间
+        span: auto
+        type: text
+    tel:
+        label: 电话
+        span: auto
+        type: text
+    address:
+        label: 地址
+        span: auto
+        type: text
+    notice:
+        label: 注意事项
+        span: auto
+        size: large
+        type: richeditor

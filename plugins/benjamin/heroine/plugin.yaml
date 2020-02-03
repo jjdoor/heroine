@@ -18,3 +18,23 @@ navigation:
                 label: 女英雄
                 url: benjamin/heroine/member
                 icon: icon-venus
+            side-menu-item3:
+                label: 中国人价格
+                url: benjamin/heroine/chineseprice
+                icon: icon-money
+            side-menu-item4:
+                label: 日本人价格
+                url: benjamin/heroine/japaneseprice
+                icon: icon-money
+            side-menu-item5:
+                label: 服务PLUS
+                url: benjamin/heroine/serviceprice
+                icon: icon-thumbs-up
+            side-menu-item6:
+                label: 车费
+                url: benjamin/heroine/trafficprice
+                icon: icon-taxi
+            side-menu-item7:
+                label: 系统
+                url: benjamin/heroine/system
+                icon: icon-windows

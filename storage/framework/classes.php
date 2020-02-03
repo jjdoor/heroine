@@ -124,4 +124,12 @@
   'RainLab\\Builder\\Classes\\LanguageMixer' => 'plugins\\rainlab\\builder\\classes\\LanguageMixer.php',
   'Benjamin\\Heroine\\Components\\Members' => 'plugins\\benjamin\\heroine\\components\\Members.php',
   'Benjamin\\Heroine\\Components\\Member' => 'plugins\\benjamin\\heroine\\components\\Member.php',
+  'benjamin\\heroine\\Controllers\\chineseprice' => 'plugins\\benjamin\\heroine\\controllers\\chineseprice.php',
+  'Benjamin\\Heroine\\Models\\ChinesePrice' => 'plugins\\benjamin\\heroine\\models\\ChinesePrice.php',
+  'benjamin\\heroine\\Controllers\\japaneseprice' => 'plugins\\benjamin\\heroine\\controllers\\japaneseprice.php',
+  'Benjamin\\Heroine\\Models\\JapanesePrice' => 'plugins\\benjamin\\heroine\\models\\JapanesePrice.php',
+  'benjamin\\heroine\\Controllers\\serviceprice' => 'plugins\\benjamin\\heroine\\controllers\\serviceprice.php',
+  'Benjamin\\Heroine\\Models\\ServicePrice' => 'plugins\\benjamin\\heroine\\models\\ServicePrice.php',
+  'benjamin\\heroine\\Controllers\\system' => 'plugins\\benjamin\\heroine\\controllers\\system.php',
+  'Benjamin\\Heroine\\Models\\System' => 'plugins\\benjamin\\heroine\\models\\System.php',
 );

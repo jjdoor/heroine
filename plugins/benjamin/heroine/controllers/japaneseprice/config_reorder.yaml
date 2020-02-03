@@ -1,0 +1,4 @@
+title: JapanesePrice
+modelClass: Benjamin\Heroine\Models\JapanesePrice
+toolbar:
+    buttons: reorder_toolbar

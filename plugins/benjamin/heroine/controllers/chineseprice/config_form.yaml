@@ -1,0 +1,10 @@
+name: ChinesePrice
+form: $/benjamin/heroine/models/chineseprice/fields.yaml
+modelClass: Benjamin\Heroine\Models\ChinesePrice
+defaultRedirect: benjamin/heroine/chineseprice
+create:
+    redirect: 'benjamin/heroine/chineseprice/update/:id'
+    redirectClose: benjamin/heroine/chineseprice
+update:
+    redirect: benjamin/heroine/chineseprice
+    redirectClose: benjamin/heroine/chineseprice

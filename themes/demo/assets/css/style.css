@@ -1,0 +1,606 @@
+
+/*=================================================
+ * CSS for PC
+ * ================================================= */
+
+#cnt{
+	display: block;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#system{
+}
+
+.topimg{
+	font-size: 0;
+	line-height: 0;
+	text-align: center;
+	margin-bottom: 40px !important;
+}
+.topimg:last-of-type{
+	margin-bottom: 0 !important;
+}
+
+
+/** sbox **/
+
+.sbox{
+	padding: 20px;
+	text-align: left;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+}
+
+.sbox:last-of-type{	margin-bottom: 0;}
+
+.sbox_in{
+	border-width: 1px;
+	border-style: solid;
+	padding: 40px;
+}
+
+
+
+/** sys1 **/
+
+.sys1{
+	margin: 0 0 40px 0;
+}
+.sys1:last-of-type{	margin-bottom: 0;}
+
+.sys1 .ss_title{
+	text-align: center;
+	margin: 0 0 2px 0;
+	padding: 15px 0;
+}
+
+.sbox1{
+	display: table;
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+	table-layout: fixed;
+	margin: 0 0 1px 0;
+}
+
+.sbox1_l,
+.sbox1_r{
+	display: table-cell;
+	vertical-align: middle;
+	height: 60px;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 24px;
+	text-align: center;
+	padding: 0 25px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.sys1_left .sbox1_l{
+	width: 35%;
+	text-align: left;
+}
+.sys1_left .sbox1_r{ text-align: right;}
+
+.sys1_right .sbox1_l{ text-align: left;}
+.sys1_right .sbox1_r{
+	width: 35%;
+	text-align: right;
+}
+
+.sbox1_l{
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+}
+
+.sbox1_r{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+
+.sys1_p{
+	font-size: 13px;
+	line-height: 20px;
+	text-align: left;
+	padding: 10px 10px 0 10px;
+}
+
+
+/** op **/
+
+#op{
+	font-size: 0;
+	line-height: 0;
+	padding: 10px 30px 40px 30px;
+}
+
+#op li{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% / 2 - 20px);
+	margin: 0 10px;
+}
+
+#op li .opbox{}
+#op li .opbox{
+	display: table;
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+	table-layout: fixed;
+}
+
+#op li .opbox p,
+#op li .opbox span{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 15px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+
+#op li .opbox p{
+	text-align: left;
+}
+
+#op li .opbox span{
+	text-align: right;
+}
+
+#op .op_p{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	padding: 20px 20px 0 20px;
+}
+
+
+
+/** service **/
+
+#service{
+	font-size: 0;
+	line-height: 0;
+	padding: 40px 30px 30px 40px;
+	text-align: left;
+}
+
+#service div{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% / 4 - 10px);
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	margin: 0 10px 10px 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#service div span{
+	display: table;
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+}
+
+#service div span em{
+	display: table-cell;
+	vertical-align: middle;
+	height: 40px;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	padding: 0 3px;
+}
+
+.service_p{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	padding: 0 10px 10px 10px;
+	margin: 0 0 0 0;
+}
+
+#service div + .service_p{
+	padding: 20px 10px 10px 10px;
+	margin: 30px 0 0 0;
+	border-top-width: 1px;
+	border-top-style: dotted;
+}
+
+
+
+/** credit **/
+
+#credit{
+}
+
+#credit p{
+	font-size: 14px;
+	line-height: 22px;
+	text-align: left;
+	margin: 0 0 20px 0;
+}
+
+#credit .bt_bg{	text-align: center;}
+
+#credit .bt1{
+	display: inline-block;
+	width: 330px;
+}
+
+#credit .stel{
+}
+#credit .stel:hover{
+	text-decoration: none;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+#credit .stel{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 330px;
+	height: 70px;
+	font-size: 13px;
+	line-height: 14px;
+	margin: 0 10px;
+	padding-left: 40px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	cursor: pointer !important;
+	-webkit-transition	: 0.2s ease-in-out;
+	-moz-transition	: 0.2s ease-in-out;
+	-o-transition	: 0.2s ease-in-out;
+	transition		: 0.2s ease-in-out;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#credit .stel{	padding-top: 13px;}
+#credit .stel em{
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 28px;
+}
+#credit .stel:before{
+	content: '';
+	display: block;
+	position: absolute;
+	background:transparent;
+	top: calc(50% - 16px);
+	left: 30px;
+	width:8px;
+	height:13px;
+	border-width:10px 0 10px 3px;
+	border-style:solid;
+	background:transparent;
+	-webkit-border-top-left-radius:10px 12px;
+	-webkit-border-bottom-left-radius:10px 12px;
+	-moz-border-radius-topleft:10px 12px;
+	-moz-border-radius-bottomleft:10px 12px;
+	border-top-left-radius:10px 12px;
+	border-bottom-left-radius:10px 12px;
+	-webkit-transform:rotate(-30deg);
+	-moz-transform:rotate(-30deg);
+	-ms-transform:rotate(-30deg);
+	-o-transform:rotate(-30deg);
+	transform:rotate(-30deg);
+}
+#credit .stel:after{
+	content: '';
+	display: block;
+	position: absolute;
+    top: calc(50% - 5px);
+    left: 40px;
+    width:10px;
+    height:10px;
+    margin-top:-8px;
+    border-width:4px 4px 0 0;
+    border-style: double;
+    background:transparent;
+    /* css3 */
+    -webkit-border-radius:0 15px 0 0;
+    -moz-border-radius:0 15px 0 0;
+    border-radius:0 15px 0 0;
+    -webkit-transform:rotate(15deg);
+    -moz-transform:rotate(15deg);
+    -ms-transform:rotate(15deg);
+    -o-transform:rotate(15deg);
+    transform:rotate(15deg);
+}
+
+
+/** area **/
+
+#area{
+	text-align: left;
+	padding: 20px 40px 40px 40px;
+}
+
+#area dl{
+	display: table;
+	font-size: 0;
+	line-height: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#area dt,
+#area dd{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#area dt{
+	width: 200px;
+	font-weight: normal;
+	text-align: left;
+	padding: 14px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#area dt em{	display: none;}
+
+#area dd{
+	padding: 10px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+
+#area .area_p{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	padding: 20px 10px 0 10px;
+}
+
+
+/** other **/
+
+.other{
+}
+
+.other p{
+	font-size: 14px;
+	line-height: 22px;
+	text-align: left;
+}
+
+
+/** notes **/
+
+#notes p{
+	font-size: 14px;
+	line-height: 22px;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+}
+
+#notes p:last-of-type{
+	margin-bottom: 0;
+}
+
+
+/*=================================================
+ * CSS for SP
+ * ================================================= */
+
+@media screen and (max-width: 650px) {
+	.topimg{
+		margin: 0 0 10px 0;
+		padding: 0 10px;
+	}
+	.topimg:first-of-type{	padding-top: 10px;}
+	.topimg:last-of-type{	margin-bottom: 10px !important;}
+	.topimg img{
+		width: 100%;
+		max-width: 1060px;
+		height: auto;
+	}
+
+	/** sbox **/
+	.sbox{
+		margin: 0 0 10px 0;
+		padding: 0;
+		text-align: left;
+		border-right: none;
+		border-left: none;
+	}
+	.sbox_in{
+		border: none;
+		padding: 0;
+	}
+
+	/** sys1 **/
+	.sys1{
+		width: auto;
+		margin: 0;
+		padding: 0 10px 10px 10px;
+	}
+	.sys1:first-of-type{	padding-top: 10px;}
+	.sys1 .ss_title{
+		margin: 0 0 1px 0;
+		padding: 10px 0;
+	}
+	.sbox1{
+		width: 100%;
+		margin: 0 0 1px 0;
+	}
+	.sbox1_l,
+	.sbox1_r{
+		height: auto;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 16px;
+		padding: 12px 10px;
+	}
+	.sbox1_l{ text-align: left;}
+	.sbox1_r{ text-align: right;}
+	.sys1_left .sbox1_l{	width: 38%;}
+	.sys1_right .sbox1_r{ width: 38%;}
+	.sys1_p{
+		font-size: 12px;
+		line-height: 18px;
+		padding: 10px 0 0 0;
+	}
+
+	/** op **/
+	#op{
+		padding: 0 10px 10px 10px;
+	}
+	#op li{
+		display: block;
+		width: auto;
+		margin: 0;
+	}
+	#op li .opbox p,
+	#op li .opbox span{
+		font-size: 14px;
+		line-height: 20px;
+		padding: 10px 0;
+	}
+	#op .op_p{
+		font-size: 12px;
+		line-height: 18px;
+		padding: 10px 0 0 0;
+	}
+
+	/** service **/
+	#service{
+		padding: 10px 4px 5px 4px;
+		text-align: center;
+	}
+	#service div{
+		width: calc(100% / 2 - 6px);
+		border-width: 2px;
+		margin: 0 3px 5px 3px;
+	}
+	#service div span em{
+		height: 35px;
+		font-size: 14px;
+		line-height: 15px;
+	}
+	.service_p{
+		font-size: 12px;
+		line-height: 18px;
+		padding: 0 0 0 0;
+		margin: 0 5px 5px 5px;
+	}
+	#service div + .service_p{
+		padding: 10px 0 0 0;
+		margin: 5px 5px 5px 5px;
+	}
+
+	/** credit **/
+	#credit{	padding: 10px 0;}
+	#credit p{
+		font-size: 13px;
+		line-height: 20px;
+		margin: 0 0 10px 0;
+		padding: 0 10px;
+	}
+	#credit .bt1{
+		display: block;
+		width: auto;
+	}
+	#credit .stel{
+		position: relative;
+		display: block;
+		width: auto;
+		text-align: center;
+		margin: 0 0 10px 0;
+		padding-left: 40px;
+	}
+	#credit .stel:last-child{	margin-bottom: 0;}
+	#credit .stel:before{
+	    left: 20px;
+	}
+	#credit .stel:after{
+	    left: 30px;
+	}
+
+	/** area **/
+	#area{
+		padding: 0 10px 10px 10px;
+	}
+	#area dl{
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	#area dt,
+	#area dd{
+		display: block;
+	}
+	#area dt{
+		width: 100%;
+		font-size: 14px;
+		line-height: 18px;
+		padding: 10px 0 0 0;
+		border: none;
+	}
+	#area dt em{	display: inline;}
+	#area dd{
+		font-size: 14px;
+		line-height: 18px;
+		padding: 0 0 10px 0;
+	}
+	#area .area_p{
+		font-size: 12px;
+		line-height: 18px;
+		padding: 10px 0 0 0;
+	}
+
+	/** other **/
+	.other{	padding: 10px;}
+	.other p{
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	/** notes **/
+	#notes{	padding: 10px;}
+	#notes p{
+		font-size: 12px;
+		line-height: 18px;
+		margin: 0 0 10px 0;
+		padding: 0 0 10px 0;
+	}
+
+	#notes p:last-of-type{
+		margin-bottom: 0;
+	}
+
+}

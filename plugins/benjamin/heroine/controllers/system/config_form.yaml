@@ -1,0 +1,10 @@
+name: System
+form: $/benjamin/heroine/models/system/fields.yaml
+modelClass: Benjamin\Heroine\Models\System
+defaultRedirect: benjamin/heroine/system
+create:
+    redirect: 'benjamin/heroine/system/update/:id'
+    redirectClose: benjamin/heroine/system
+update:
+    redirect: benjamin/heroine/system
+    redirectClose: benjamin/heroine/system

@@ -1,0 +1,10 @@
+name: TrafficPrice
+form: $/benjamin/heroine/models/trafficprice/fields.yaml
+modelClass: Benjamin\Heroine\Models\TrafficPrice
+defaultRedirect: benjamin/heroine/trafficprice
+create:
+    redirect: 'benjamin/heroine/trafficprice/update/:id'
+    redirectClose: benjamin/heroine/trafficprice
+update:
+    redirect: benjamin/heroine/trafficprice
+    redirectClose: benjamin/heroine/trafficprice

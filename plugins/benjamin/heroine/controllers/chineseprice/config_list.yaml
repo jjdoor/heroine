@@ -1,0 +1,12 @@
+title: ChinesePrice
+modelClass: Benjamin\Heroine\Models\ChinesePrice
+list: $/benjamin/heroine/models/chineseprice/columns.yaml
+recordUrl: 'benjamin/heroine/chineseprice/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

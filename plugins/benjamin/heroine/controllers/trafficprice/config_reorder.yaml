@@ -1,0 +1,4 @@
+title: TrafficPrice
+modelClass: Benjamin\Heroine\Models\TrafficPrice
+toolbar:
+    buttons: reorder_toolbar

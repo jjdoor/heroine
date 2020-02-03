@@ -1,0 +1,4 @@
+title: ChinesePrice
+modelClass: Benjamin\Heroine\Models\ChinesePrice
+toolbar:
+    buttons: reorder_toolbar

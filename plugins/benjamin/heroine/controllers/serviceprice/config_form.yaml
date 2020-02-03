@@ -1,0 +1,10 @@
+name: ServicePrice
+form: $/benjamin/heroine/models/serviceprice/fields.yaml
+modelClass: Benjamin\Heroine\Models\ServicePrice
+defaultRedirect: benjamin/heroine/serviceprice
+create:
+    redirect: 'benjamin/heroine/serviceprice/update/:id'
+    redirectClose: benjamin/heroine/serviceprice
+update:
+    redirect: benjamin/heroine/serviceprice
+    redirectClose: benjamin/heroine/serviceprice

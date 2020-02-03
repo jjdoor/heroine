@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: id
+        type: number
+    notice:
+        label: notice
+        type: text
+    open_hour:
+        label: open_hour
+        type: text
+    tel:
+        label: tel
+        type: text
+    address:
+        label: address
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime
