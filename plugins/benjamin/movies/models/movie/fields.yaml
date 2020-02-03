@@ -1,0 +1,42 @@
+fields:
+    one:
+        label: 星期一
+        span: auto
+        default: ''
+        type: text
+    two:
+        label: 星期二
+        span: auto
+        type: text
+    three:
+        label: 星期三
+        span: auto
+        type: text
+    four:
+        label: 星期四
+        span: auto
+        type: text
+    five:
+        label: 星期五
+        span: auto
+        type: text
+    six:
+        label: 星期六
+        span: auto
+        type: text
+    seven:
+        label: 星期日
+        span: auto
+        type: text
+    video:
+        label: 视频
+        mode: file
+        span: auto
+        type: mediafinder
+tabs:
+    fields:
+        name:
+            label: 视频名称
+            span: auto
+            type: text
+            tab: 标签一

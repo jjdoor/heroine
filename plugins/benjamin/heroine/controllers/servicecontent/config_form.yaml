@@ -1,0 +1,11 @@
+name: ServiceContent
+modelClass: Benjamin\Heroine\Models\ServiceContent
+form: $/benjamin/heroine/models/servicecontent/fields.yaml
+defaultRedirect: benjamin/heroine/servicecontent
+create:
+    redirect: 'benjamin/heroine/servicecontent/update/:id'
+    redirectClose: benjamin/heroine/servicecontent
+update:
+    redirect: benjamin/heroine/servicecontent
+    redirectClose: benjamin/heroine/servicecontent
+preview: {  }

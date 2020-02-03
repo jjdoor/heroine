@@ -1,0 +1,61 @@
+columns:
+    id:
+        label: id
+        type: number
+    name:
+        label: name
+        type: text
+    is_new:
+        label: is_new
+        type: number
+    age:
+        label: age
+        type: number
+    top:
+        label: top
+        type: number
+    bust:
+        label: bust
+        type: number
+    waist:
+        label: waist
+        type: number
+    hip:
+        label: hip
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime
+    monday:
+        label: monday
+        type: text
+    tuesday:
+        label: tuesday
+        type: text
+    wednesday:
+        label: wednesday
+        type: text
+    thursday:
+        label: thursday
+        type: text
+    friday:
+        label: friday
+        type: text
+    saturday:
+        label: saturday
+        type: text
+    sunday:
+        label: sunday
+        type: text
+    photo:
+        label: photo
+        type: text
+    gallery:
+        label: gallery
+        type: text

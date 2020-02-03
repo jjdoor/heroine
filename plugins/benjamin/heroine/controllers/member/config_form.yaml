@@ -1,0 +1,11 @@
+name: Member
+modelClass: Benjamin\Heroine\Models\Member
+form: $/benjamin/heroine/models/member/fields.yaml
+defaultRedirect: benjamin/heroine/member
+create:
+    redirect: 'benjamin/heroine/member/update/:id'
+    redirectClose: benjamin/heroine/member
+update:
+    redirect: benjamin/heroine/member
+    redirectClose: benjamin/heroine/member
+preview: {  }

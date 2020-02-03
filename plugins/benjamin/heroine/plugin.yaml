@@ -1,0 +1,20 @@
+plugin:
+    name: 'benjamin.heroine::lang.plugin.name'
+    description: 'benjamin.heroine::lang.plugin.description'
+    author: benjamin
+    icon: oc-icon-bed
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 女英雄
+        url: benjamin/heroine/servicecontent
+        icon: icon-server
+        sideMenu:
+            side-menu-item:
+                label: 服务
+                url: benjamin/heroine/servicecontent
+                icon: icon-sitemap
+            side-menu-item2:
+                label: 女英雄
+                url: benjamin/heroine/member
+                icon: icon-venus

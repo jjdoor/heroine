@@ -1,0 +1,105 @@
+fields:
+    name:
+        label: 姓名
+        span: auto
+        placeholder: 姓名
+        type: text
+        comment: 这里是姓名
+    age:
+        label: 年龄
+        span: auto
+        type: text
+    is_new:
+        label: 新人
+        span: auto
+        type: switch
+tabs:
+    fields:
+        monday:
+            label: 星期一
+            span: auto
+            type: text
+            tab: 服务时间
+        tuesday:
+            label: 星期二
+            span: auto
+            type: text
+            tab: 服务时间
+        wednesday:
+            label: 星期三
+            span: auto
+            type: text
+            tab: 服务时间
+        thursday:
+            label: 星期四
+            span: auto
+            type: text
+            tab: 服务时间
+        friday:
+            label: 星期五
+            span: auto
+            type: text
+            tab: 服务时间
+        saturday:
+            label: 星期六
+            span: auto
+            type: text
+            tab: 服务时间
+        sunday:
+            label: 星期日
+            span: auto
+            type: text
+            tab: 服务时间
+        waist:
+            label: 腰围
+            span: auto
+            type: text
+            tab: 身材
+        top:
+            label: 身高
+            span: auto
+            type: number
+            tab: 身材
+        hip:
+            label: 臀围
+            span: auto
+            type: text
+            tab: 身材
+        bust:
+            label: 胸围
+            span: auto
+            type: text
+            tab: 身材
+        service_content:
+            label: 服务项目
+            nameFrom: name
+            descriptionFrom: description
+            span: auto
+            containerAttributes:
+                key: value
+            type: relation
+            tab: 服务项目
+        photo:
+            label: 'File upload'
+            mode: image
+            imageWidth: '100'
+            imageHeight: '100'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 照片
+        gallery:
+            label: 照片
+            span: auto
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            imageWidth: '80'
+            imageHeight: '80'
+            type: fileupload
+            tab: 照片

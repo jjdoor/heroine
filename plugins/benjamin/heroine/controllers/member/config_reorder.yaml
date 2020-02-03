@@ -1,0 +1,4 @@
+title: Member
+modelClass: Benjamin\Heroine\Models\Member
+toolbar:
+    buttons: reorder_toolbar

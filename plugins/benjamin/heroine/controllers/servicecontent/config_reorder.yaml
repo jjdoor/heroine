@@ -1,0 +1,4 @@
+title: ServiceContent
+modelClass: Benjamin\Heroine\Models\ServiceContent
+toolbar:
+    buttons: reorder_toolbar

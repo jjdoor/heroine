@@ -1,0 +1,10 @@
+name: Movies
+form: $/benjamin/movies/models/movie/fields.yaml
+modelClass: Benjamin\Movies\Models\Movie
+defaultRedirect: benjamin/movies/movies
+create:
+    redirect: 'benjamin/movies/movies/update/:id'
+    redirectClose: benjamin/movies/movies
+update:
+    redirect: benjamin/movies/movies
+    redirectClose: benjamin/movies/movies

@@ -1,0 +1,13 @@
+title = "Test post"
+url = "/test-post/:id"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Benjamin\Movies\Models\Movie"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "name,created_time"
+notFoundMessage = "Record not found"
+==
+{% component 'builderDetails' %}

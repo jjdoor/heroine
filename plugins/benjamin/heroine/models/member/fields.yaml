@@ -1,0 +1,101 @@
+fields:
+    name:
+        label: 名字
+        span: auto
+        type: text
+    is_new:
+        label: 新人
+        span: auto
+        type: switch
+    age:
+        label: 年龄
+        span: auto
+        type: text
+tabs:
+    fields:
+        top:
+            label: 身高
+            span: auto
+            type: text
+            tab: 身材
+        bust:
+            label: 胸围
+            span: auto
+            type: text
+            tab: 身材
+        waist:
+            label: 腰围
+            span: auto
+            type: text
+            tab: 身材
+        hip:
+            label: 臀围
+            span: auto
+            type: text
+            tab: 身材
+        album:
+            label: 相册
+            mode: image
+            imageWidth: '100'
+            imageHeight: '100'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 照片
+        gallery:
+            label: 照片
+            mode: image
+            imageWidth: '80'
+            imageHeight: '80'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 照片
+        service_content:
+            label: 服务
+            nameFrom: name
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: 服务
+        monday:
+            label: 周一
+            span: auto
+            type: text
+            tab: 出勤
+        tuesday:
+            label: 周二
+            span: auto
+            type: text
+            tab: 出勤
+        wednesday:
+            label: 周三
+            span: auto
+            type: text
+            tab: 出勤
+        thursday:
+            label: 周四
+            span: auto
+            type: text
+            tab: 出勤
+        friday:
+            label: 周五
+            span: auto
+            type: text
+            tab: 出勤
+        saturday:
+            label: 周六
+            span: auto
+            type: text
+            tab: 出勤
+        sunday:
+            label: 周日
+            span: auto
+            type: text
+            tab: 出勤

@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: 视频
+        type: text
+        searchable: true
+        sortable: true
+    year:
+        label: 年份
+        type: number
+        sortable: true

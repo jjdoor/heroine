@@ -1,0 +1,11 @@
+plugin:
+    name: 'benjamin.movies::lang.plugin.name'
+    description: 'benjamin.movies::lang.plugin.description'
+    author: benjamin
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 视频
+        url: benjamin/movies/movies
+        icon: icon-video-camera

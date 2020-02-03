@@ -1,0 +1,52 @@
+
+/** bt_bg **/
+
+.bt_bg{
+	padding: 0 10px;
+	text-align: center;
+}
+
+.bt1, .bt1:hover{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	font-family		: Meiryo,"MS PGothic",Osaka,sans-serif;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 0;
+	border-radius: 3px;
+	-webkit-transition	: 0.2s ease-in-out;
+	-moz-transition	: 0.2s ease-in-out;
+	-o-transition	: 0.2s ease-in-out;
+	transition		: 0.2s ease-in-out;
+}
+
+a.bt1,
+input.bt1{
+	width: 100%;
+	font-family		: Meiryo,"MS PGothic",Osaka,sans-serif;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	border: none;
+}
+
+a.bt1:hover,
+input.bt1:hover{
+	cursor			: pointer;
+	text-decoration: none;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+
+/*=================================================
+ * CSS for SP
+ * ================================================= */
+
+@media screen and (max-width: 650px) {
+	.bt1, .bt1:hover{
+		font-size: 16px;
+		padding: 15px 0;
+	}
+}

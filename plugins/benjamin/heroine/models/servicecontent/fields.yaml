@@ -1,0 +1,9 @@
+fields:
+    name:
+        label: 服务
+        span: auto
+        type: text
+    is_recommend:
+        label: 推荐
+        span: auto
+        type: switch

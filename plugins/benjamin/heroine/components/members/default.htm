@@ -1,0 +1,7 @@
+{% set members = __SELF__.members %}
+
+<ul>
+    {% for member in members %}
+    <li>{{ member.name }} {{ member.created_at }}</li>
+    {% endfor %}
+</ul>

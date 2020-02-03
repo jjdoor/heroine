@@ -1,0 +1,8 @@
+{% set actors = __SELF__.actors %}
+
+
+<ul>
+    {% for actor in actors %}
+    <li>{{ actor.name }} {{ actor.created_at }}{{actor.users.id}}</li>
+    {% endfor %}
+</ul>

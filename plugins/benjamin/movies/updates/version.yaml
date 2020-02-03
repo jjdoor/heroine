@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table benjamin_movies_'
+    - builder_table_create_benjamin_movies_.php
+1.0.3:
+    - 'Updated table benjamin_movies_'
+    - builder_table_update_benjamin_movies_.php
+1.0.4:
+    - 'Updated table benjamin_movies_'
+    - builder_table_update_benjamin_movies__2.php

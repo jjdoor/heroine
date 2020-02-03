@@ -1,0 +1,4 @@
+title: Movies
+modelClass: Benjamin\Movies\Models\Movie
+toolbar:
+    buttons: reorder_toolbar

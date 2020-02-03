@@ -1,0 +1,32 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table benjamin_heroine_member'
+    - builder_table_create_benjamin_heroine_member.php
+1.0.3:
+    - 'Updated table benjamin_heroine_member'
+    - builder_table_update_benjamin_heroine_member.php
+1.0.4:
+    - 'Created table benjamin_heroine_service_content'
+    - builder_table_create_benjamin_heroine_service_content.php
+1.0.5:
+    - 'Updated table benjamin_heroine_member'
+    - builder_table_update_benjamin_heroine_members.php
+1.0.6:
+    - 'Updated table benjamin_heroine_service_content'
+    - builder_table_update_benjamin_heroine_service_contents.php
+1.0.7:
+    - 'Updated table benjamin_heroine_members'
+    - builder_table_update_benjamin_heroine_members_2.php
+1.0.8:
+    - 'Created table benjamin_heroine_content_member'
+    - builder_table_create_benjamin_heroine_content_member.php
+1.0.9:
+    - 'Updated table benjamin_heroine_members'
+    - builder_table_update_benjamin_heroine_members_3.php
+1.0.10:
+    - 'Updated table benjamin_heroine_members'
+    - builder_table_update_benjamin_heroine_members_4.php
+1.0.11:
+    - 'Updated table benjamin_heroine_members'
+    - builder_table_update_benjamin_heroine_members_5.php
