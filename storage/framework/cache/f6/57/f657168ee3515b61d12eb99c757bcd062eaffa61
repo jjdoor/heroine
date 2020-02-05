@@ -1,7 +1,9 @@
-1580873327a:1:{s:9:"staff.htm";a:9:{s:8:"fileName";s:9:"staff.htm";s:7:"content";s:6115:"title = "staff"
+1580891680a:1:{s:9:"staff.htm";a:10:{s:8:"fileName";s:9:"staff.htm";s:7:"content";s:6242:"title = "staff"
 url = "/staff"
 layout = "staff"
 is_hidden = 0
+
+[members]
 ==
 <main id="sb-site" class="main_content">
 	<div class="pt bg_x1">
@@ -11,16 +13,21 @@ is_hidden = 0
 	<div id="cnt" class="bg_j1">
 		<div id="companion">
 			<ul>
+				{% for member in members %}
 				<li class="bg_com bounceIn wow" data-wow-delay=".1s">
 					<div class="img">
-						<a href="https://www.sakazakiya.net/prof/prof61/" class="fade">
-							<img src="https://www.sakazakiya.net/img/all/loader.png" data-original="https://www.sakazakiya.net/prof/61/top.jpg?t=1580871973" width="190" height="253" class="lazy" alt="松月(小潔)">
+						<a href="{{'profile'|app}}/{{member.id}}" class="fade">
+							<img src="https://www.sakazakiya.net/img/all/loader.png" data-original="{{member.album.path}}" width="190" height="253" class="lazy" alt="松月(小潔)">
 						</a>
-						<span class="icon bg_m1">NEWFACE</span>					</div>
+						{% if schedule.is_new %}
+						<span class="icon bg_m1">NEWFACE</span>
+						{% endif %}
+					</div>
 					<div class="txt">
-						<a href="https://www.sakazakiya.net/prof/prof61/">松月(小潔)</a><br class="pc_no"><em class="sp_no"> / </em>24歳 <br class="sp_no">165cm<em class="sp_no">-</em><br class="pc_no">84(C)-57-85<br>
+						<a href="{{'profile'|app}}/{{member.id}}">{{member.name}}</a><br class="pc_no"><em class="sp_no"> / </em>{{member.age}}歳 <br class="sp_no">{{member.age}}cm<em class="sp_no">-</em><br class="pc_no">{{member.bust}}-{{member.waist}}-{{member.hip}}<br>
 					</div>
 				</li>
+				{% endfor %}
 				<li class="bg_com bounceIn wow" data-wow-delay=".2s">
 					<div class="img">
 						<a href="https://www.sakazakiya.net/prof/prof84/" class="fade">
@@ -108,7 +115,7 @@ is_hidden = 0
 			</a>
 		</div>
 	</div>
-</main>";s:5:"mtime";i:1580872414;s:6:"markup";s:6045:"<main id="sb-site" class="main_content">
+</main>";s:5:"mtime";i:1580879389;s:6:"markup";s:6159:"<main id="sb-site" class="main_content">
 	<div class="pt bg_x1">
 		<p class="pan tx_c2"><a href="https://www.sakazakiya.net/" class="tx_u1">大阪/日本橋デリヘル 阪崎屋</a> ≫ <a href="https://www.sakazakiya.net/top/" class="tx_u1">トップページ</a> ≫ <span class="tx_u1">在籍一覧</span></p>
 		<h2 class="page_title bd_i tx_b2"><em class="font1 bd_j tx_a2"><span title="CAST" class="bg_r1">CAST</span></em><br>在籍一覧</h2>
@@ -116,16 +123,21 @@ is_hidden = 0
 	<div id="cnt" class="bg_j1">
 		<div id="companion">
 			<ul>
+				{% for member in members %}
 				<li class="bg_com bounceIn wow" data-wow-delay=".1s">
 					<div class="img">
-						<a href="https://www.sakazakiya.net/prof/prof61/" class="fade">
-							<img src="https://www.sakazakiya.net/img/all/loader.png" data-original="https://www.sakazakiya.net/prof/61/top.jpg?t=1580871973" width="190" height="253" class="lazy" alt="松月(小潔)">
+						<a href="{{'profile'|app}}/{{member.id}}" class="fade">
+							<img src="https://www.sakazakiya.net/img/all/loader.png" data-original="{{member.album.path}}" width="190" height="253" class="lazy" alt="松月(小潔)">
 						</a>
-						<span class="icon bg_m1">NEWFACE</span>					</div>
+						{% if schedule.is_new %}
+						<span class="icon bg_m1">NEWFACE</span>
+						{% endif %}
+					</div>
 					<div class="txt">
-						<a href="https://www.sakazakiya.net/prof/prof61/">松月(小潔)</a><br class="pc_no"><em class="sp_no"> / </em>24歳 <br class="sp_no">165cm<em class="sp_no">-</em><br class="pc_no">84(C)-57-85<br>
+						<a href="{{'profile'|app}}/{{member.id}}">{{member.name}}</a><br class="pc_no"><em class="sp_no"> / </em>{{member.age}}歳 <br class="sp_no">{{member.age}}cm<em class="sp_no">-</em><br class="pc_no">{{member.bust}}-{{member.waist}}-{{member.hip}}<br>
 					</div>
 				</li>
+				{% endfor %}
 				<li class="bg_com bounceIn wow" data-wow-delay=".2s">
 					<div class="img">
 						<a href="https://www.sakazakiya.net/prof/prof84/" class="fade">
@@ -213,4 +225,4 @@ is_hidden = 0
 			</a>
 		</div>
 	</div>
-</main>";s:4:"code";N;s:5:"title";s:5:"staff";s:3:"url";s:6:"/staff";s:6:"layout";s:5:"staff";s:9:"is_hidden";s:1:"0";}}
+</main>";s:4:"code";N;s:5:"title";s:5:"staff";s:3:"url";s:6:"/staff";s:6:"layout";s:5:"staff";s:9:"is_hidden";s:1:"0";s:7:"members";a:0:{}}}

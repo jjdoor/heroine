@@ -1,4 +1,4 @@
-1580833630a:1:{s:10:"access.htm";a:6:{s:8:"fileName";s:10:"access.htm";s:7:"content";s:5486:"==
+1580890454a:1:{s:10:"access.htm";a:6:{s:8:"fileName";s:10:"access.htm";s:7:"content";s:5282:"==
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -43,13 +43,8 @@
 <script type="application/ld+json">
 {"@type":"Organization","name":"\u5927\u962a\/\u65e5\u672c\u6a4b\u30c7\u30ea\u30d8\u30eb \u962a\u5d0e\u5c4b","url":"https:\/\/www.sakazakiya.net\/","telephone":"070-4086-7105","address":"\u5927\u962a\/\u65e5\u672c\u6a4b"}</script></head>
 <body class="bgimg_a bg_i1 tx_u1" id="companion_body">
-<header class="header_b bg_s1">
-	<h1 class="tx_k1">大阪/日本橋デリヘル 阪崎屋</h1>
-	<div id="navToggle" class="fade">
-		<button class="bd_sp1">メニュー<span class="tx_p1"></span></button>
-	</div>
-</header>
 
+{% partial 'header' %}
 {% partial 'menu' %}
 
 <div id="topimg"><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>
@@ -83,7 +78,7 @@
   sr.reveal('.animate', { easing: 'ease', duration: 800, distance: '0px', opacity: 0, scale:0.8, viewFactor:0.2, mobile:true, reset:false });
 </script>
 </body>
-</html>";s:5:"mtime";i:1580832135;s:6:"markup";s:5482:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1580889849;s:6:"markup";s:5278:"<!DOCTYPE html>
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
@@ -127,13 +122,8 @@
 <script type="application/ld+json">
 {"@type":"Organization","name":"\u5927\u962a\/\u65e5\u672c\u6a4b\u30c7\u30ea\u30d8\u30eb \u962a\u5d0e\u5c4b","url":"https:\/\/www.sakazakiya.net\/","telephone":"070-4086-7105","address":"\u5927\u962a\/\u65e5\u672c\u6a4b"}</script></head>
 <body class="bgimg_a bg_i1 tx_u1" id="companion_body">
-<header class="header_b bg_s1">
-	<h1 class="tx_k1">大阪/日本橋デリヘル 阪崎屋</h1>
-	<div id="navToggle" class="fade">
-		<button class="bd_sp1">メニュー<span class="tx_p1"></span></button>
-	</div>
-</header>
 
+{% partial 'header' %}
 {% partial 'menu' %}
 
 <div id="topimg"><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>

@@ -48,9 +48,19 @@ class Members extends ComponentBase
 
     protected function loadActors()
     {
+        $week_array=array("sunday","monday","tuesday","wednesday","thursday","friday","saturday"); //先定义一个数组
+        $week_number = date('w');
+        $week = $week_array[$week_number];
         /** @var Model $member */
         $member = new Member();
-        $list = $member->newQuery()->with(['service_content','album','gallery'])->get()->toArray();
+        $list = $member->newQuery()
+            ->with(['service_content','album','gallery'])
+            ->get()
+            ->map(function($v)use($week){
+                $v['current_open_houe'] = $v[$week];
+                return $v;
+            })
+            ->toArray();
         return $list;
     }
 

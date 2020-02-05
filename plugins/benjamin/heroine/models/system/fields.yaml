@@ -1,4 +1,8 @@
 fields:
+    name:
+        label: 站点名
+        span: auto
+        type: text
     open_hour:
         label: 营业时间
         span: auto

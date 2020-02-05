@@ -36,8 +36,14 @@ class __TwigTemplate_9936ff40a64cca96e7cd0b5249461d4c8a7b4c850e24557fc21588028de
         // line 1
         echo "<nav class=\"bg_u1 bd_u1 in_u1\">
 \t<ul>
-<li><a href=\"https://www.sakazakiya.net/top/\" title=\"トップページ\" class=\"tx_o1 bd_n1\"><em><span title=\"TOP PAGE\" class=\"font1 tx_n1\">TOP PAGE</span></em><br>トップページ</a></li>
-<li><a href=\"https://www.sakazakiya.net/staff/\" title=\"在籍一覧\" class=\"tx_o1 bd_n1\"><em><span title=\"CAST\" class=\"font1 tx_n1\">CAST</span></em><br>在籍一覧<i>(7名)</i></a></li>
+<li><a href=\"";
+        // line 3
+        echo $this->extensions['System\Twig\Extension']->appFilter("index");
+        echo "\" title=\"トップページ\" class=\"tx_o1 bd_n1\"><em><span title=\"TOP PAGE\" class=\"font1 tx_n1\">TOP PAGE</span></em><br>トップページ</a></li>
+<li><a href=\"";
+        // line 4
+        echo $this->extensions['System\Twig\Extension']->appFilter("staff");
+        echo "\" title=\"在籍一覧\" class=\"tx_o1 bd_n1\"><em><span title=\"CAST\" class=\"font1 tx_n1\">CAST</span></em><br>在籍一覧<i>(7名)</i></a></li>
 <li><a href=\"";
         // line 5
         echo $this->extensions['System\Twig\Extension']->appFilter("schedule");
@@ -67,15 +73,15 @@ class __TwigTemplate_9936ff40a64cca96e7cd0b5249461d4c8a7b4c850e24557fc21588028de
 
     public function getDebugInfo()
     {
-        return array (  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
+        return array (  57 => 7,  53 => 6,  49 => 5,  45 => 4,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<nav class=\"bg_u1 bd_u1 in_u1\">
 \t<ul>
-<li><a href=\"https://www.sakazakiya.net/top/\" title=\"トップページ\" class=\"tx_o1 bd_n1\"><em><span title=\"TOP PAGE\" class=\"font1 tx_n1\">TOP PAGE</span></em><br>トップページ</a></li>
-<li><a href=\"https://www.sakazakiya.net/staff/\" title=\"在籍一覧\" class=\"tx_o1 bd_n1\"><em><span title=\"CAST\" class=\"font1 tx_n1\">CAST</span></em><br>在籍一覧<i>(7名)</i></a></li>
+<li><a href=\"{{'index'|app}}\" title=\"トップページ\" class=\"tx_o1 bd_n1\"><em><span title=\"TOP PAGE\" class=\"font1 tx_n1\">TOP PAGE</span></em><br>トップページ</a></li>
+<li><a href=\"{{'staff'|app}}\" title=\"在籍一覧\" class=\"tx_o1 bd_n1\"><em><span title=\"CAST\" class=\"font1 tx_n1\">CAST</span></em><br>在籍一覧<i>(7名)</i></a></li>
 <li><a href=\"{{'schedule'|app}}\" title=\"スケジュール\" class=\"tx_o1 bd_n1\"><em><span title=\"SCHEDULE\" class=\"font1 tx_n1\">SCHEDULE</span></em><br>スケジュール</a></li>
 <li><a href=\"{{'system'|app}}/\" title=\"料金システム\" class=\"tx_o1 bd_n1\"><em><span title=\"SYSTEM\" class=\"font1 tx_n1\">SYSTEM</span></em><br>料金システム</a></li>
 <li><a href=\"{{'access'|app}}/\" title=\"アクセスマップ\" class=\"tx_o1 bd_n1\"><em><span title=\"ACCESS\" class=\"font1 tx_n1\">ACCESS</span></em><br>アクセスマップ</a></li>

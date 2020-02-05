@@ -120,29 +120,28 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 <script type=\"application/ld+json\">
 {\"@type\":\"Organization\",\"name\":\"\\u5927\\u962a\\/\\u65e5\\u672c\\u6a4b\\u30c7\\u30ea\\u30d8\\u30eb \\u962a\\u5d0e\\u5c4b\",\"url\":\"https:\\/\\/www.sakazakiya.net\\/\",\"telephone\":\"070-4086-7105\",\"address\":\"\\u5927\\u962a\\/\\u65e5\\u672c\\u6a4b\"}</script></head>
 <body class=\"bgimg_a bg_i1 tx_u1\" id=\"companion_body\">
-<header class=\"header_b bg_s1\">
-\t<h1 class=\"tx_k1\">大阪/日本橋デリヘル 阪崎屋</h1>
-\t<div id=\"navToggle\" class=\"fade\">
-\t\t<button class=\"bd_sp1\">メニュー<span class=\"tx_p1\"></span></button>
-\t</div>
-</header>
+
 
 ";
-        // line 52
+        // line 47
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 48
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("menu"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 53
+        // line 49
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("desc"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 50
         echo "
-<div id=\"topimg\"><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>
-<section id=\"hinfo\" class=\"tx_q1 bg_q1\">
-\t<p class=\"hopen\"><span class=\"bd_q1\"></span>14:00～翌3:00</p><br>
-\t<p class=\"htel\"><span class=\"bd_q1\"></span><a href=\"tel:07040867105\" class=\"tx_q1\">070-4086-7105</a></p>
-</section>
+
 ";
-        // line 59
+        // line 52
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 60
+        // line 53
         echo "<footer>
 \t<h2 class=\"s_title bg_f2 sd_a bd_a tx_e1\"><em title=\"SITE MENU\" class=\"font1 tx_d1\">SITE MENU</em><br>サイトメニュー</h2>
 \t<div id=\"textlink\" class=\"tx_g2\"><a href=\"https://www.sakazakiya.net/top/\" title=\"トップページ\" class=\"tx_g1\">トップページ</a><span>│</span><a href=\"https://www.sakazakiya.net/staff/\" title=\"在籍一覧\" class=\"tx_g1\">在籍一覧<i>(7名)</i></a><span>│</span><a href=\"https://www.sakazakiya.net/schedule/\" title=\"スケジュール\" class=\"tx_g1\">スケジュール</a><span>│</span><a href=\"https://www.sakazakiya.net/system/\" title=\"料金システム\" class=\"tx_g1\">料金システム</a><span>│</span><a href=\"https://www.sakazakiya.net/access/\" title=\"アクセスマップ\" class=\"tx_g1\">アクセスマップ</a><span>│</span><a href=\"https://www.girlsheaven-job.net/osaka/ma-49/sa-470/sakazakiya/?of=y\" target=\"_blank\" title=\"求人\" class=\"tx_g1\">求人</a><span>│</span><a href=\"https://www.sakazakiya.net/link/\" title=\"リンク\" class=\"tx_g1\">リンク</a></div>
@@ -183,7 +182,7 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 
     public function getDebugInfo()
     {
-        return array (  146 => 60,  144 => 59,  136 => 53,  132 => 52,  115 => 38,  108 => 34,  95 => 24,  91 => 23,  87 => 22,  83 => 21,  79 => 20,  75 => 19,  71 => 18,  67 => 17,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  37 => 1,);
+        return array (  145 => 53,  143 => 52,  139 => 50,  135 => 49,  131 => 48,  127 => 47,  115 => 38,  108 => 34,  95 => 24,  91 => 23,  87 => 22,  83 => 21,  79 => 20,  75 => 19,  71 => 18,  67 => 17,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -232,20 +231,13 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 <script type=\"application/ld+json\">
 {\"@type\":\"Organization\",\"name\":\"\\u5927\\u962a\\/\\u65e5\\u672c\\u6a4b\\u30c7\\u30ea\\u30d8\\u30eb \\u962a\\u5d0e\\u5c4b\",\"url\":\"https:\\/\\/www.sakazakiya.net\\/\",\"telephone\":\"070-4086-7105\",\"address\":\"\\u5927\\u962a\\/\\u65e5\\u672c\\u6a4b\"}</script></head>
 <body class=\"bgimg_a bg_i1 tx_u1\" id=\"companion_body\">
-<header class=\"header_b bg_s1\">
-\t<h1 class=\"tx_k1\">大阪/日本橋デリヘル 阪崎屋</h1>
-\t<div id=\"navToggle\" class=\"fade\">
-\t\t<button class=\"bd_sp1\">メニュー<span class=\"tx_p1\"></span></button>
-\t</div>
-</header>
 
+
+{% partial 'header' %}
 {% partial 'menu' %}
+{% partial 'desc' %}
 
-<div id=\"topimg\"><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>
-<section id=\"hinfo\" class=\"tx_q1 bg_q1\">
-\t<p class=\"hopen\"><span class=\"bd_q1\"></span>14:00～翌3:00</p><br>
-\t<p class=\"htel\"><span class=\"bd_q1\"></span><a href=\"tel:07040867105\" class=\"tx_q1\">070-4086-7105</a></p>
-</section>
+
 {% page %}
 <footer>
 \t<h2 class=\"s_title bg_f2 sd_a bd_a tx_e1\"><em title=\"SITE MENU\" class=\"font1 tx_d1\">SITE MENU</em><br>サイトメニュー</h2>

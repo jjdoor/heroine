@@ -42,17 +42,62 @@ class __TwigTemplate_ea8146902608315bd25986e9c27f24e7de11cec046cea10033744a7bed8
 \t<div id=\"cnt\" class=\"bg_j1\">
 \t\t<div id=\"companion\">
 \t\t\t<ul>
-\t\t\t\t<li class=\"bg_com bounceIn wow\" data-wow-delay=\".1s\">
+\t\t\t\t";
+        // line 9
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["members"] ?? null));
+        foreach ($context['_seq'] as $context["_key"] => $context["member"]) {
+            // line 10
+            echo "\t\t\t\t<li class=\"bg_com bounceIn wow\" data-wow-delay=\".1s\">
 \t\t\t\t\t<div class=\"img\">
-\t\t\t\t\t\t<a href=\"https://www.sakazakiya.net/prof/prof61/\" class=\"fade\">
-\t\t\t\t\t\t\t<img src=\"https://www.sakazakiya.net/img/all/loader.png\" data-original=\"https://www.sakazakiya.net/prof/61/top.jpg?t=1580871973\" width=\"190\" height=\"253\" class=\"lazy\" alt=\"松月(小潔)\">
+\t\t\t\t\t\t<a href=\"";
+            // line 12
+            echo $this->extensions['System\Twig\Extension']->appFilter("profile");
+            echo "/";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["member"], "id", [], "any", false, false, false, 12), "html", null, true);
+            echo "\" class=\"fade\">
+\t\t\t\t\t\t\t<img src=\"https://www.sakazakiya.net/img/all/loader.png\" data-original=\"";
+            // line 13
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["member"], "album", [], "any", false, false, false, 13), "path", [], "any", false, false, false, 13), "html", null, true);
+            echo "\" width=\"190\" height=\"253\" class=\"lazy\" alt=\"松月(小潔)\">
 \t\t\t\t\t\t</a>
-\t\t\t\t\t\t<span class=\"icon bg_m1\">NEWFACE</span>\t\t\t\t\t</div>
+\t\t\t\t\t\t";
+            // line 15
+            if (twig_get_attribute($this->env, $this->source, ($context["schedule"] ?? null), "is_new", [], "any", false, false, false, 15)) {
+                // line 16
+                echo "\t\t\t\t\t\t<span class=\"icon bg_m1\">NEWFACE</span>
+\t\t\t\t\t\t";
+            }
+            // line 18
+            echo "\t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"txt\">
-\t\t\t\t\t\t<a href=\"https://www.sakazakiya.net/prof/prof61/\">松月(小潔)</a><br class=\"pc_no\"><em class=\"sp_no\"> / </em>24歳 <br class=\"sp_no\">165cm<em class=\"sp_no\">-</em><br class=\"pc_no\">84(C)-57-85<br>
+\t\t\t\t\t\t<a href=\"";
+            // line 20
+            echo $this->extensions['System\Twig\Extension']->appFilter("profile");
+            echo "/";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["member"], "id", [], "any", false, false, false, 20), "html", null, true);
+            echo "\">";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["member"], "name", [], "any", false, false, false, 20), "html", null, true);
+            echo "</a><br class=\"pc_no\"><em class=\"sp_no\"> / </em>";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["member"], "age", [], "any", false, false, false, 20), "html", null, true);
+            echo "歳 <br class=\"sp_no\">";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["member"], "age", [], "any", false, false, false, 20), "html", null, true);
+            echo "cm<em class=\"sp_no\">-</em><br class=\"pc_no\">";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["member"], "bust", [], "any", false, false, false, 20), "html", null, true);
+            echo "-";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["member"], "waist", [], "any", false, false, false, 20), "html", null, true);
+            echo "-";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["member"], "hip", [], "any", false, false, false, 20), "html", null, true);
+            echo "<br>
 \t\t\t\t\t</div>
 \t\t\t\t</li>
-\t\t\t\t<li class=\"bg_com bounceIn wow\" data-wow-delay=\".2s\">
+\t\t\t\t";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['member'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 24
+        echo "\t\t\t\t<li class=\"bg_com bounceIn wow\" data-wow-delay=\".2s\">
 \t\t\t\t\t<div class=\"img\">
 \t\t\t\t\t\t<a href=\"https://www.sakazakiya.net/prof/prof84/\" class=\"fade\">
 \t\t\t\t\t\t\t<img src=\"https://www.sakazakiya.net/img/all/loader.png\" data-original=\"https://www.sakazakiya.net/prof/84/top.jpg?t=1580871973\" width=\"190\" height=\"253\" class=\"lazy\" alt=\"Cindy\">
@@ -147,9 +192,14 @@ class __TwigTemplate_ea8146902608315bd25986e9c27f24e7de11cec046cea10033744a7bed8
         return "D:\\www\\octobercms/themes/demo/pages/staff.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  37 => 1,);
+        return array (  100 => 24,  76 => 20,  72 => 18,  68 => 16,  66 => 15,  61 => 13,  55 => 12,  51 => 10,  47 => 9,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -162,16 +212,21 @@ class __TwigTemplate_ea8146902608315bd25986e9c27f24e7de11cec046cea10033744a7bed8
 \t<div id=\"cnt\" class=\"bg_j1\">
 \t\t<div id=\"companion\">
 \t\t\t<ul>
+\t\t\t\t{% for member in members %}
 \t\t\t\t<li class=\"bg_com bounceIn wow\" data-wow-delay=\".1s\">
 \t\t\t\t\t<div class=\"img\">
-\t\t\t\t\t\t<a href=\"https://www.sakazakiya.net/prof/prof61/\" class=\"fade\">
-\t\t\t\t\t\t\t<img src=\"https://www.sakazakiya.net/img/all/loader.png\" data-original=\"https://www.sakazakiya.net/prof/61/top.jpg?t=1580871973\" width=\"190\" height=\"253\" class=\"lazy\" alt=\"松月(小潔)\">
+\t\t\t\t\t\t<a href=\"{{'profile'|app}}/{{member.id}}\" class=\"fade\">
+\t\t\t\t\t\t\t<img src=\"https://www.sakazakiya.net/img/all/loader.png\" data-original=\"{{member.album.path}}\" width=\"190\" height=\"253\" class=\"lazy\" alt=\"松月(小潔)\">
 \t\t\t\t\t\t</a>
-\t\t\t\t\t\t<span class=\"icon bg_m1\">NEWFACE</span>\t\t\t\t\t</div>
+\t\t\t\t\t\t{% if schedule.is_new %}
+\t\t\t\t\t\t<span class=\"icon bg_m1\">NEWFACE</span>
+\t\t\t\t\t\t{% endif %}
+\t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"txt\">
-\t\t\t\t\t\t<a href=\"https://www.sakazakiya.net/prof/prof61/\">松月(小潔)</a><br class=\"pc_no\"><em class=\"sp_no\"> / </em>24歳 <br class=\"sp_no\">165cm<em class=\"sp_no\">-</em><br class=\"pc_no\">84(C)-57-85<br>
+\t\t\t\t\t\t<a href=\"{{'profile'|app}}/{{member.id}}\">{{member.name}}</a><br class=\"pc_no\"><em class=\"sp_no\"> / </em>{{member.age}}歳 <br class=\"sp_no\">{{member.age}}cm<em class=\"sp_no\">-</em><br class=\"pc_no\">{{member.bust}}-{{member.waist}}-{{member.hip}}<br>
 \t\t\t\t\t</div>
 \t\t\t\t</li>
+\t\t\t\t{% endfor %}
 \t\t\t\t<li class=\"bg_com bounceIn wow\" data-wow-delay=\".2s\">
 \t\t\t\t\t<div class=\"img\">
 \t\t\t\t\t\t<a href=\"https://www.sakazakiya.net/prof/prof84/\" class=\"fade\">
