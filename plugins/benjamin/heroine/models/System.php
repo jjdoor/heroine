@@ -1,6 +1,7 @@
 <?php namespace Benjamin\Heroine\Models;
 
 use Model;
+//use Illuminate\Database\Eloquent\Model;
 
 /**
  * Model

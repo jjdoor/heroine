@@ -132,4 +132,8 @@
   'Benjamin\\Heroine\\Models\\ServicePrice' => 'plugins\\benjamin\\heroine\\models\\ServicePrice.php',
   'benjamin\\heroine\\Controllers\\system' => 'plugins\\benjamin\\heroine\\controllers\\system.php',
   'Benjamin\\Heroine\\Models\\System' => 'plugins\\benjamin\\heroine\\models\\System.php',
+  'Benjamin\\Heroine\\Components\\System' => 'plugins\\benjamin\\heroine\\components\\System.php',
+  'Benjamin\\Heroine\\Components\\Price' => 'plugins\\benjamin\\heroine\\components\\Price.php',
+  'Benjamin\\Heroine\\Models\\TrafficPrice' => 'plugins\\benjamin\\heroine\\models\\TrafficPrice.php',
+  'benjamin\\heroine\\Controllers\\trafficprice' => 'plugins\\benjamin\\heroine\\controllers\\trafficprice.php',
 );

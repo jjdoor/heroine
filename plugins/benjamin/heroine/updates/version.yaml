@@ -54,3 +54,6 @@
 1.0.19:
     - 'Updated table benjamin_heroine_system'
     - builder_table_update_benjamin_heroine_system.php
+1.0.20:
+    - 'Updated table benjamin_heroine_members'
+    - builder_table_update_benjamin_heroine_members_6.php

@@ -1,0 +1,144 @@
+
+/*=================================================
+ * CSS for PC
+ * ================================================= */
+
+#cnt{
+	display: block;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+
+/** abox **/
+
+.abox{
+	padding: 20px;
+	text-align: left;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+}
+
+.abox:last-of-type{	margin-bottom: 0;}
+
+.abox_in{
+	border-width: 1px;
+	border-style: solid;
+	padding: 40px;
+}
+
+.gmap{
+	font-size: 0;
+	line-height: 0;
+	border-width: 5px;
+	border-style: solid;
+	margin: 0 0 20px 0;
+}
+
+.gmap iframe{
+	width: 100%;
+	border: none;
+}
+
+.ainfo{
+	display: table;
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+}
+
+.ainfo h4,
+.ainfo p{
+	display: table-cell;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.ainfo h4{
+	width: 250px;
+	text-align: center;
+	padding: 15px 0;
+}
+.ainfo h4 em{	display: none;}
+
+.ainfo p{
+	font-size: 14px;
+	line-height: 22px;
+	text-align: left;
+	padding: 15px 0 15px 15px;
+}
+
+.atxt{
+	font-size: 14px;
+	line-height: 22px;
+	text-align: left;
+}
+
+.ainfo + .atxt{
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+}
+
+
+/*=================================================
+ * CSS for SP
+ * ================================================= */
+
+@media screen and (max-width: 650px) {
+	#access{	width: auto;}
+
+	/** abox **/
+	.abox{
+		margin: 0 0 10px 0;
+		padding: 0;
+		text-align: left;
+		border-right: none;
+		border-left: none;
+	}
+	.abox_in{
+		border: none;
+		padding: 10px 0 0 0;
+	}
+	.gmap{	margin: 0 10px 10px 10px;}
+	.gmap iframe{height: 350px;}
+	.ainfo{
+		display: block;
+		width: auto;
+		margin: 0 0 0 0;
+		padding: 0;
+	}
+	.ainfo h4,
+	.ainfo p{
+		display: block;
+		width: auto;
+	}
+	.ainfo h4{
+		text-align: left;
+		padding: 7px;
+	}
+	.ainfo h4 em{	display: inline;}
+	.ainfo p{
+		font-size: 13px;
+		line-height: 20px;
+		padding: 10px;
+	}
+	.atxt{
+		font-size: 13px;
+		line-height: 20px;
+		text-align: left;
+		padding: 0 10px 10px 10px;
+	}
+	.ainfo + .atxt{
+		margin-top: 0;
+		padding-top: 10px;
+	}
+}

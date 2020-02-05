@@ -1,0 +1,116 @@
+
+/*=================================================
+ * CSS for PC
+ * ================================================= */
+
+#cnt{	padding: 40px 0 20px 0;}
+
+
+/** staff **/
+
+#companion{
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#companion ul{
+	font-size: 0;
+	line-height: 0;
+}
+
+#companion li{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+	line-height: 0;
+	margin: 0 10px 20px 10px;
+	padding: 10px 10px 0 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#companion li .img{
+	position: relative;
+	overflow: hidden;
+}
+
+#companion li .txt{
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	padding: 7px 0 7px 0;
+}
+
+#companion li .img .fade{
+}
+
+#companion li .icon{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 14px);
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	position: absolute;
+	bottom: 7px;
+	left: 7px;
+}
+
+.pc_no{	display: none;}
+.sp_no{	display: inline;}
+
+
+/*=================================================
+ * CSS for SP
+ * ================================================= */
+
+@media screen and (max-width: 650px) {
+	#cnt{	padding: 0 0 10px 0;}
+	#companion{
+		width: auto;
+		text-align: center;
+		margin: 0;
+		padding: 10px 1px 0 1px;
+	}
+	#companion li{
+		display: inline-block;
+		vertical-align: top;
+		width: calc(100% / 3 - 5px);
+		margin: 0 1.5px 10px 1.5px !important;
+		padding: 1px;
+	}
+	#companion li .img{
+		position: relative;
+	}
+	#companion li .img .fade{
+	}
+	#companion li .img a > img{
+		width: 100%;
+		height: auto;
+	}
+	#companion li .txt{
+		font-size: 11px;
+		line-height: 13px;
+		padding: 5px 0 4px 0;
+	}
+	#companion li .txt a{
+		display: inline-block;
+		font-size: 12px;
+		margin: 0 0 2px 0;
+	}
+	#companion li .icon{
+		width: calc(100% - 6px);
+		font-size: 10px;
+		line-height: 14px;
+		position: absolute;
+		bottom: 3px;
+		left: 3px;
+	}
+	.pc_no{	display: inline;}
+	.sp_no{	display: none;}
+}

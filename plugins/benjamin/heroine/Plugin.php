@@ -8,7 +8,9 @@ class Plugin extends PluginBase
     {
         return [
             'Benjamin\Heroine\Components\Members' => 'members',
-            'Benjamin\Heroine\Components\Member' => 'member'
+            'Benjamin\Heroine\Components\Member' => 'member',
+            'Benjamin\Heroine\Components\System' => 'system',
+            'Benjamin\Heroine\Components\Price' => 'price',
         ];
     }
 

@@ -43,7 +43,7 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 \t<meta name=\"Description\" content=\"大阪日本橋発・超厳選華流美女の秘伝サービスはこちら！\">
 \t<title>料金システム 大阪/日本橋デリヘル 阪崎屋</title>
 \t<meta name=\"format-detection\" content=\"telephone=no,address=no,email=no\">
-\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">
+\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=gmap bd_e bounceIn wow1.0\">
 \t<link rel=\"canonical\" href=\"https://www.sakazakiya.net/system/\">
 \t<link href=\"https://fonts.googleapis.com/css?family=Josefin+Sans:300\" rel=\"stylesheet\" type=\"text/css\">
 \t<link href=\"";
@@ -72,7 +72,7 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
         echo "\" rel=\"stylesheet\">
 \t<link href=\"";
         // line 19
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/style.css");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/system/style.css");
         echo "\" rel=\"stylesheet\">
 \t<script type=\"text/javascript\" src=\"";
         // line 20
@@ -126,25 +126,23 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 \t\t<button class=\"bd_sp1\">メニュー<span class=\"tx_p1\"></span></button>
 \t</div>
 </header>
-<nav class=\"bg_u1 bd_u1 in_u1\">
-\t<ul>
-<li><a href=\"https://www.sakazakiya.net/top/\" title=\"トップページ\" class=\"tx_o1 bd_n1\"><em><span title=\"TOP PAGE\" class=\"font1 tx_n1\">TOP PAGE</span></em><br>トップページ</a></li>
-<li><a href=\"https://www.sakazakiya.net/staff/\" title=\"在籍一覧\" class=\"tx_o1 bd_n1\"><em><span title=\"CAST\" class=\"font1 tx_n1\">CAST</span></em><br>在籍一覧<i>(7名)</i></a></li>
-<li><a href=\"https://www.sakazakiya.net/schedule/\" title=\"スケジュール\" class=\"tx_o1 bd_n1\"><em><span title=\"SCHEDULE\" class=\"font1 tx_n1\">SCHEDULE</span></em><br>スケジュール</a></li>
-<li><a href=\"https://www.sakazakiya.net/system/\" title=\"料金システム\" class=\"tx_o1 bd_n1\"><em><span title=\"SYSTEM\" class=\"font1 tx_n1\">SYSTEM</span></em><br>料金システム</a></li>
-<li><a href=\"https://www.sakazakiya.net/access/\" title=\"アクセスマップ\" class=\"tx_o1 bd_n1\"><em><span title=\"ACCESS\" class=\"font1 tx_n1\">ACCESS</span></em><br>アクセスマップ</a></li>
-<li><a href=\"https://www.girlsheaven-job.net/osaka/ma-49/sa-470/sakazakiya/?of=y\" target=\"_blank\" title=\"求人\" class=\"tx_o1 bd_n1\"><em><span title=\"RECRUIT\" class=\"font1 tx_n1\">RECRUIT</span></em><br>求人</a></li>
-\t</ul>
-</nav>
+
+";
+        // line 52
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("menu"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 53
+        echo "
 <div id=\"topimg\"><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>
 <section id=\"hinfo\" class=\"tx_q1 bg_q1\">
 \t<p class=\"hopen\"><span class=\"bd_q1\"></span>14:00～翌3:00</p><br>
 \t<p class=\"htel\"><span class=\"bd_q1\"></span><a href=\"tel:07040867105\" class=\"tx_q1\">070-4086-7105</a></p>
 </section>
 ";
-        // line 66
+        // line 59
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 67
+        // line 60
         echo "<footer>
 \t<h2 class=\"s_title bg_f2 sd_a bd_a tx_e1\"><em title=\"SITE MENU\" class=\"font1 tx_d1\">SITE MENU</em><br>サイトメニュー</h2>
 \t<div id=\"textlink\" class=\"tx_g2\"><a href=\"https://www.sakazakiya.net/top/\" title=\"トップページ\" class=\"tx_g1\">トップページ</a><span>│</span><a href=\"https://www.sakazakiya.net/staff/\" title=\"在籍一覧\" class=\"tx_g1\">在籍一覧<i>(7名)</i></a><span>│</span><a href=\"https://www.sakazakiya.net/schedule/\" title=\"スケジュール\" class=\"tx_g1\">スケジュール</a><span>│</span><a href=\"https://www.sakazakiya.net/system/\" title=\"料金システム\" class=\"tx_g1\">料金システム</a><span>│</span><a href=\"https://www.sakazakiya.net/access/\" title=\"アクセスマップ\" class=\"tx_g1\">アクセスマップ</a><span>│</span><a href=\"https://www.girlsheaven-job.net/osaka/ma-49/sa-470/sakazakiya/?of=y\" target=\"_blank\" title=\"求人\" class=\"tx_g1\">求人</a><span>│</span><a href=\"https://www.sakazakiya.net/link/\" title=\"リンク\" class=\"tx_g1\">リンク</a></div>
@@ -185,7 +183,7 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 
     public function getDebugInfo()
     {
-        return array (  148 => 67,  146 => 66,  115 => 38,  108 => 34,  95 => 24,  91 => 23,  87 => 22,  83 => 21,  79 => 20,  75 => 19,  71 => 18,  67 => 17,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  37 => 1,);
+        return array (  146 => 60,  144 => 59,  136 => 53,  132 => 52,  115 => 38,  108 => 34,  95 => 24,  91 => 23,  87 => 22,  83 => 21,  79 => 20,  75 => 19,  71 => 18,  67 => 17,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -199,7 +197,7 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 \t<meta name=\"Description\" content=\"大阪日本橋発・超厳選華流美女の秘伝サービスはこちら！\">
 \t<title>料金システム 大阪/日本橋デリヘル 阪崎屋</title>
 \t<meta name=\"format-detection\" content=\"telephone=no,address=no,email=no\">
-\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">
+\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=gmap bd_e bounceIn wow1.0\">
 \t<link rel=\"canonical\" href=\"https://www.sakazakiya.net/system/\">
 \t<link href=\"https://fonts.googleapis.com/css?family=Josefin+Sans:300\" rel=\"stylesheet\" type=\"text/css\">
 \t<link href=\"{{ 'assets/css/normalize.css'|theme }}\" rel=\"stylesheet\">
@@ -208,7 +206,7 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 \t<link href=\"{{'assets/css/color.css'|theme}}\" rel=\"stylesheet\">
 \t<link href=\"{{'assets/css/common_beautiful.css'|theme}}\" rel=\"stylesheet\">
 \t<link href=\"{{'assets/css/animate.css'|theme}}\" rel=\"stylesheet\">
-\t<link href=\"{{'assets/css/style.css'|theme}}\" rel=\"stylesheet\">
+\t<link href=\"{{'assets/system/style.css'|theme}}\" rel=\"stylesheet\">
 \t<script type=\"text/javascript\" src=\"{{'assets/common/js/jq1.11.js'|theme}}\"></script>
 \t<script type=\"text/javascript\" src=\"{{'assets/common/js/to-top.js'|theme}}\"></script>
 \t<script type=\"text/javascript\" src=\"{{'assets/common/js/sp_menu.js'|theme}}\"></script>
@@ -240,16 +238,9 @@ class __TwigTemplate_a35a4e133d7d318b8e4445578a261d7332d70e98afb1f9e0dc6f0b04b7b
 \t\t<button class=\"bd_sp1\">メニュー<span class=\"tx_p1\"></span></button>
 \t</div>
 </header>
-<nav class=\"bg_u1 bd_u1 in_u1\">
-\t<ul>
-<li><a href=\"https://www.sakazakiya.net/top/\" title=\"トップページ\" class=\"tx_o1 bd_n1\"><em><span title=\"TOP PAGE\" class=\"font1 tx_n1\">TOP PAGE</span></em><br>トップページ</a></li>
-<li><a href=\"https://www.sakazakiya.net/staff/\" title=\"在籍一覧\" class=\"tx_o1 bd_n1\"><em><span title=\"CAST\" class=\"font1 tx_n1\">CAST</span></em><br>在籍一覧<i>(7名)</i></a></li>
-<li><a href=\"https://www.sakazakiya.net/schedule/\" title=\"スケジュール\" class=\"tx_o1 bd_n1\"><em><span title=\"SCHEDULE\" class=\"font1 tx_n1\">SCHEDULE</span></em><br>スケジュール</a></li>
-<li><a href=\"https://www.sakazakiya.net/system/\" title=\"料金システム\" class=\"tx_o1 bd_n1\"><em><span title=\"SYSTEM\" class=\"font1 tx_n1\">SYSTEM</span></em><br>料金システム</a></li>
-<li><a href=\"https://www.sakazakiya.net/access/\" title=\"アクセスマップ\" class=\"tx_o1 bd_n1\"><em><span title=\"ACCESS\" class=\"font1 tx_n1\">ACCESS</span></em><br>アクセスマップ</a></li>
-<li><a href=\"https://www.girlsheaven-job.net/osaka/ma-49/sa-470/sakazakiya/?of=y\" target=\"_blank\" title=\"求人\" class=\"tx_o1 bd_n1\"><em><span title=\"RECRUIT\" class=\"font1 tx_n1\">RECRUIT</span></em><br>求人</a></li>
-\t</ul>
-</nav>
+
+{% partial 'menu' %}
+
 <div id=\"topimg\"><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>
 <section id=\"hinfo\" class=\"tx_q1 bg_q1\">
 \t<p class=\"hopen\"><span class=\"bd_q1\"></span>14:00～翌3:00</p><br>

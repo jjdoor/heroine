@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed609b3a-b307-4709-b248-4030eb6a7721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Member.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/Plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/System.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/System.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/updates/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/updates/version.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/1d/76/index.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/1d/76/index.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/2b/61/footer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/2b/61/footer.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/2c/15/index - 副本.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/38/32/test.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/39/b9/system.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/39/b9/system.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/51/d2/index.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/51/d2/index.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/5d/39/404.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/5d/39/404.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/95/f5/header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/95/f5/header.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/b7/29/home.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/bc/22/profile.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/bc/22/profile.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/c2/7d/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/c2/7d/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/c6/1c/test-post.htm.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/cms/cache/d4/b4/profile.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/d4/b4/profile.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/48/4848a1d5247448a3af729a060fb9d80a65d2248ee73e81e3ee3721f87ce0a171.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/48/4848a1d5247448a3af729a060fb9d80a65d2248ee73e81e3ee3721f87ce0a171.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/e7/48/system.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/e7/48/system.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/35/35a0911b4455f41603eb32a6909ec607c7c5a683515fb0494bd2b9f6fec24898.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/59/5983ce27a046c3599862eb7262963b85d7de42a7720e8b50bd1b8f7c183fa8b0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/69/692f8a5143de4781b78351bc9c45efc44d7569914f3a7eac39df8f54c47c401c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/7b/7b510699b73ed351875ed952660ec937c2e850ee959db8646d90b2d4cab61341.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/7b/7b510699b73ed351875ed952660ec937c2e850ee959db8646d90b2d4cab61341.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/7e/7e586786362f1ead6acae5645fa397e8ad372bad40e55ab662b22eea7404c467.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/84/84ca4f82af0c3034911ff8927673063ba4aa8b8d72e00b5c24daf9d351292373.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/a8/a8818b677cf64106a1efc4d7f81dd6c7066b4b26658a9a36e3bed2c13084a254.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/b2/b2b63b316f5cea43a82871ce3c3c4be08c1307cf3e814ac0d5124a9459ca6aaa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/d8/d8b7f6cf2fbb40be3c5d41fcbdbbdc8f5ea86c9140fdbe9a17ff6512d7fae6a8.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/d8/d8b7f6cf2fbb40be3c5d41fcbdbbdc8f5ea86c9140fdbe9a17ff6512d7fae6a8.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/07/53/075301a68f38697a04931837c9ff28b3399c145e" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/07/53/075301a68f38697a04931837c9ff28b3399c145e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/33/4f/334f19dfac66aaac579b554655d8236e891dbca0" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/33/4f/334f19dfac66aaac579b554655d8236e891dbca0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/34/c8/34c8c8819c48d5c3c24bed7639648e4578718d12" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/34/c8/34c8c8819c48d5c3c24bed7639648e4578718d12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/43/4c/434caeff39be3172e6e886d6595b90d4655457ec" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/43/4c/434caeff39be3172e6e886d6595b90d4655457ec" afterDir="false" />
@@ -17,17 +42,25 @@
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/5d/41/5d418aeb3468bcda3b4ee9153a3cb3fa004ec2a4" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/5d/41/5d418aeb3468bcda3b4ee9153a3cb3fa004ec2a4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/6b/fc/6bfc2b2a1f7ddb0021d491e4fa2072ee80bf73da" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/6b/fc/6bfc2b2a1f7ddb0021d491e4fa2072ee80bf73da" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/6e/c8/6ec83440ec335278939f6a3ca85b23f74399b899" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/6e/c8/6ec83440ec335278939f6a3ca85b23f74399b899" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/80/fd/80fdbcfbd60aeee54e41e213427f170307e43df3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/80/fd/80fdbcfbd60aeee54e41e213427f170307e43df3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/82/94/829435ae9c39513b8d6bd064c35b4ffac224480d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/82/94/829435ae9c39513b8d6bd064c35b4ffac224480d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/88/41/88414de62558d5a7e71375433248d9f8ee029dbb" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/88/41/88414de62558d5a7e71375433248d9f8ee029dbb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/b2/8d/b28d4f9e4bd7aa3b47eea8284ebc60d5f3d5b482" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b2/8d/b28d4f9e4bd7aa3b47eea8284ebc60d5f3d5b482" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b6/24/b62421fb18582ad0164cb870d9a6b8bf9030dd24" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b6/24/b62421fb18582ad0164cb870d9a6b8bf9030dd24" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/b9/da/b9da2113dbd8fdc9c17204398265103f82fe5f2e" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b9/da/b9da2113dbd8fdc9c17204398265103f82fe5f2e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/ba/6e/ba6e8817f26428774104d477071fd470b3003d34" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ba/6e/ba6e8817f26428774104d477071fd470b3003d34" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/db/94/db94038a52e6db3dfc6c345880886cdd0948e6a6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/db/94/db94038a52e6db3dfc6c345880886cdd0948e6a6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/f7/eb/f7eb72988860fa3e1e51bc2de0e774462d661159" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/f7/eb/f7eb72988860fa3e1e51bc2de0e774462d661159" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/YFS96TcH3RDvHsTq7WMWeFmMSnefRnLEquxpaWKK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/profile.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/profile.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/lQvHLo6oalLkbu5UtmudpGafL2Hc5Y3TtRzsvH4d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/layouts/system.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/layouts/system.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/pages/system.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/system.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +133,9 @@
       <workItem from="1580449031570" duration="7928000" />
       <workItem from="1580476289568" duration="2586000" />
       <workItem from="1580533847595" duration="35953000" />
-      <workItem from="1580703862326" duration="15555000" />
+      <workItem from="1580703862326" duration="16155000" />
+      <workItem from="1580791107149" duration="27436000" />
+      <workItem from="1580871429542" duration="1549000" />
     </task>
     <servers />
   </component>
@@ -128,82 +163,86 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="608" y="308" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.0.1920.1032@0.0.1920.1032" timestamp="1580366524370" />
-    <state width="731" height="558" key="DebuggerActiveHint" timestamp="1580724017184">
+    <state width="731" height="558" key="DebuggerActiveHint" timestamp="1580825702933">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="731" height="558" key="DebuggerActiveHint/0.0.1920.1032@0.0.1920.1032" timestamp="1580724017184" />
-    <state width="1864" height="321" key="GridCell.Tab.0.bottom" timestamp="1580724067687">
+    <state width="731" height="558" key="DebuggerActiveHint/0.0.1920.1032@0.0.1920.1032" timestamp="1580825702933" />
+    <state width="1864" height="321" key="GridCell.Tab.0.bottom" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.0.center" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.0.center" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.0.left" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.0.left" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.0.right" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.0.right" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.1.bottom" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.1.bottom" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.1.center" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.1.center" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.1.left" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.1.left" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.1.right" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.1.right" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.2.bottom" timestamp="1580724067688">
+    <state width="1864" height="321" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.2.bottom" timestamp="1580833581750">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067688" />
-    <state width="1864" height="321" key="GridCell.Tab.2.center" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581750" />
+    <state width="1864" height="321" key="GridCell.Tab.2.center" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.2.left" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.2.left" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
-    <state width="1864" height="321" key="GridCell.Tab.2.right" timestamp="1580724067687">
+    <state width="1864" height="321" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
+    <state width="1864" height="321" key="GridCell.Tab.2.right" timestamp="1580833581749">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580724067687" />
+    <state width="1864" height="321" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
     <state x="612" y="180" width="687" height="655" key="StructurePopup" timestamp="1580705703069">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="612" y="180" width="687" height="655" key="StructurePopup/0.0.1920.1032@0.0.1920.1032" timestamp="1580705703069" />
-    <state width="888" height="498" key="SwitcherDM" timestamp="1580633385752">
+    <state width="888" height="498" key="SwitcherDM" timestamp="1580798116891">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="888" height="498" key="SwitcherDM/0.0.1920.1032@0.0.1920.1032" timestamp="1580633385752" />
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1580703952058">
+    <state width="888" height="498" key="SwitcherDM/0.0.1920.1032@0.0.1920.1032" timestamp="1580798116891" />
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1580871549767">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1580703952058" />
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1580871549767" />
+    <state x="703" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580792649394">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="703" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1580792649394" />
     <state x="208" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580646764109">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="208" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1032@0.0.1920.1032" timestamp="1580646764109" />
-    <state x="644" y="122" width="804" height="612" key="find.popup" timestamp="1580720874151">
+    <state x="115" y="126" width="1084" height="612" key="find.popup" timestamp="1580831665150">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="644" y="122" width="804" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1580720874151" />
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1580733191726">
+    <state x="115" y="126" width="1084" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1580831665150" />
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1580872046764">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1580733191726" />
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1580872046764" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,11 +287,34 @@
           <line>54</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/plugins/benjamin/heroine/components/System.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
         <watch expression="$this-&gt;record" />
+        <watch expression="strtotime(&quot;+0 week +1 day&quot;)" />
+        <watch expression="date(&quot;w&quot;,strtotime(&quot;+0 week +1 day&quot;))" />
+        <watch expression="date(&quot;w&quot;,strtotime(&quot;+0 week +5 day&quot;))" />
       </configuration>
     </watches-manager>
   </component>
