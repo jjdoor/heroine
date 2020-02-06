@@ -131,36 +131,19 @@ class __TwigTemplate_e23868f69b2bada40f425749aabdfb218cbbfadd9c42415eb0ff9570af1
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("menu"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         // line 48
-        echo "
-<div id=\"topimg\"><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>
-<section id=\"hinfo\" class=\"tx_q1 bg_q1\">
-\t<p class=\"hopen\"><span class=\"bd_q1\"></span>14:00～翌3:00</p><br>
-\t<p class=\"htel\"><span class=\"bd_q1\"></span><a href=\"tel:07040867105\" class=\"tx_q1\">070-4086-7105</a></p>
-</section>
-";
-        // line 54
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("desc"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 49
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 55
-        echo "<footer>
-\t<h2 class=\"s_title bg_f2 sd_a bd_a tx_e1\"><em title=\"SITE MENU\" class=\"font1 tx_d1\">SITE MENU</em><br>サイトメニュー</h2>
-\t<div id=\"textlink\" class=\"tx_g2\"><a href=\"https://www.sakazakiya.net/top/\" title=\"トップページ\" class=\"tx_g1\">トップページ</a><span>│</span><a href=\"https://www.sakazakiya.net/staff/\" title=\"在籍一覧\" class=\"tx_g1\">在籍一覧<i>(7名)</i></a><span>│</span><a href=\"https://www.sakazakiya.net/schedule/\" title=\"スケジュール\" class=\"tx_g1\">スケジュール</a><span>│</span><a href=\"https://www.sakazakiya.net/system/\" title=\"料金システム\" class=\"tx_g1\">料金システム</a><span>│</span><a href=\"https://www.sakazakiya.net/access/\" title=\"アクセスマップ\" class=\"tx_g1\">アクセスマップ</a><span>│</span><a href=\"https://www.girlsheaven-job.net/osaka/ma-49/sa-470/sakazakiya/?of=y\" target=\"_blank\" title=\"求人\" class=\"tx_g1\">求人</a><span>│</span><a href=\"https://www.sakazakiya.net/link/\" title=\"リンク\" class=\"tx_g1\">リンク</a></div>
-\t<div id=\"footer\">
-\t\t<div id=\"up\"><a href=\"#\" data-scroll class=\"font1 tx_f1 bd_n\">PAGE UP</a></div>
-\t\t<div id=\"finfo\" class=\"tx_i1\">
-\t\t\t<h2>大阪/日本橋デリヘル 阪崎屋</h2>
-\t\t\t<p><em class=\"tx_h1\">OPEN.</em>14:00～翌3:00</p>
-      \t\t<p><em class=\"tx_h1\">TEL.</em>070-4086-7105</p>
-\t\t\t<div id=\"ad\">
-\t\t\t\t<span class=\"tx_h1\">Powered by</span> <a href=\"https://web.fucolle.com/\" target=\"_blank\" class=\"tx_i1\">風俗店ホームページ制作屋さん</a><br><em>　</em><span class=\"tx_h1\">Designed by</span> <a href=\"https://hp.fucolle.com/\" target=\"_blank\" class=\"tx_i1\">デリヘル無料ホームページ制作</a>
-\t\t\t</div>
-\t\t</div>
-\t\t<div id=\"copy\" class=\"font1 tx_j1\">
-\t\t\tCopyright &#169; 2019 FUCOLLE.COM All Rights Reserved.<br>
-\t\t\tIt Supports It to the <a href=\"https://delijob.fucolle.com/\" title=\"デリヘルでバイト！\" target=\"_blank\" class=\"tx_j1\">JOB</a> &amp; <a href=\"https://away.fucolle.com/\" title=\"風俗出稼ぎねっと\" target=\"_blank\" class=\"tx_j1\">AWAY</a>.<br>
-\t\t</div>
-\t</div>
-</footer>
-<script type=\"text/javascript\" src=\"https://www.sakazakiya.net/common/js/scrollreveal.min.js\"></script>
+        // line 50
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 51
+        echo "<script type=\"text/javascript\" src=\"";
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/common/js/scrollreveal.min.js");
+        echo "\"></script>
 <script>
   window.sr = ScrollReveal();
   sr.reveal('.animate', { easing: 'ease', duration: 800, distance: '0px', opacity: 0, scale:0.8, viewFactor:0.2, mobile:true, reset:false });
@@ -181,7 +164,7 @@ class __TwigTemplate_e23868f69b2bada40f425749aabdfb218cbbfadd9c42415eb0ff9570af1
 
     public function getDebugInfo()
     {
-        return array (  144 => 55,  142 => 54,  134 => 48,  130 => 47,  126 => 46,  115 => 38,  108 => 34,  95 => 24,  91 => 23,  87 => 22,  83 => 21,  79 => 20,  75 => 19,  71 => 18,  67 => 17,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  37 => 1,);
+        return array (  144 => 51,  140 => 50,  138 => 49,  134 => 48,  130 => 47,  126 => 46,  115 => 38,  108 => 34,  95 => 24,  91 => 23,  87 => 22,  83 => 21,  79 => 20,  75 => 19,  71 => 18,  67 => 17,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -233,33 +216,10 @@ class __TwigTemplate_e23868f69b2bada40f425749aabdfb218cbbfadd9c42415eb0ff9570af1
 
 {% partial 'header' %}
 {% partial 'menu' %}
-
-<div id=\"topimg\"><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>
-<section id=\"hinfo\" class=\"tx_q1 bg_q1\">
-\t<p class=\"hopen\"><span class=\"bd_q1\"></span>14:00～翌3:00</p><br>
-\t<p class=\"htel\"><span class=\"bd_q1\"></span><a href=\"tel:07040867105\" class=\"tx_q1\">070-4086-7105</a></p>
-</section>
+{% partial 'desc' %}
 {% page %}
-<footer>
-\t<h2 class=\"s_title bg_f2 sd_a bd_a tx_e1\"><em title=\"SITE MENU\" class=\"font1 tx_d1\">SITE MENU</em><br>サイトメニュー</h2>
-\t<div id=\"textlink\" class=\"tx_g2\"><a href=\"https://www.sakazakiya.net/top/\" title=\"トップページ\" class=\"tx_g1\">トップページ</a><span>│</span><a href=\"https://www.sakazakiya.net/staff/\" title=\"在籍一覧\" class=\"tx_g1\">在籍一覧<i>(7名)</i></a><span>│</span><a href=\"https://www.sakazakiya.net/schedule/\" title=\"スケジュール\" class=\"tx_g1\">スケジュール</a><span>│</span><a href=\"https://www.sakazakiya.net/system/\" title=\"料金システム\" class=\"tx_g1\">料金システム</a><span>│</span><a href=\"https://www.sakazakiya.net/access/\" title=\"アクセスマップ\" class=\"tx_g1\">アクセスマップ</a><span>│</span><a href=\"https://www.girlsheaven-job.net/osaka/ma-49/sa-470/sakazakiya/?of=y\" target=\"_blank\" title=\"求人\" class=\"tx_g1\">求人</a><span>│</span><a href=\"https://www.sakazakiya.net/link/\" title=\"リンク\" class=\"tx_g1\">リンク</a></div>
-\t<div id=\"footer\">
-\t\t<div id=\"up\"><a href=\"#\" data-scroll class=\"font1 tx_f1 bd_n\">PAGE UP</a></div>
-\t\t<div id=\"finfo\" class=\"tx_i1\">
-\t\t\t<h2>大阪/日本橋デリヘル 阪崎屋</h2>
-\t\t\t<p><em class=\"tx_h1\">OPEN.</em>14:00～翌3:00</p>
-      \t\t<p><em class=\"tx_h1\">TEL.</em>070-4086-7105</p>
-\t\t\t<div id=\"ad\">
-\t\t\t\t<span class=\"tx_h1\">Powered by</span> <a href=\"https://web.fucolle.com/\" target=\"_blank\" class=\"tx_i1\">風俗店ホームページ制作屋さん</a><br><em>　</em><span class=\"tx_h1\">Designed by</span> <a href=\"https://hp.fucolle.com/\" target=\"_blank\" class=\"tx_i1\">デリヘル無料ホームページ制作</a>
-\t\t\t</div>
-\t\t</div>
-\t\t<div id=\"copy\" class=\"font1 tx_j1\">
-\t\t\tCopyright &#169; 2019 FUCOLLE.COM All Rights Reserved.<br>
-\t\t\tIt Supports It to the <a href=\"https://delijob.fucolle.com/\" title=\"デリヘルでバイト！\" target=\"_blank\" class=\"tx_j1\">JOB</a> &amp; <a href=\"https://away.fucolle.com/\" title=\"風俗出稼ぎねっと\" target=\"_blank\" class=\"tx_j1\">AWAY</a>.<br>
-\t\t</div>
-\t</div>
-</footer>
-<script type=\"text/javascript\" src=\"https://www.sakazakiya.net/common/js/scrollreveal.min.js\"></script>
+{% partial 'footer' %}
+<script type=\"text/javascript\" src=\"{{'assets/common/js/scrollreveal.min.js'|theme}}\"></script>
 <script>
   window.sr = ScrollReveal();
   sr.reveal('.animate', { easing: 'ease', duration: 800, distance: '0px', opacity: 0, scale:0.8, viewFactor:0.2, mobile:true, reset:false });

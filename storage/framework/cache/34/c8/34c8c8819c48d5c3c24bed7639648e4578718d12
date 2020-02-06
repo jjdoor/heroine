@@ -1,4 +1,4 @@
-1580892213a:1:{s:9:"index.htm";a:6:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:4444:"==
+1580894396a:1:{s:9:"index.htm";a:6:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:4436:"==
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -97,13 +97,13 @@
 
 {% partial 'index_footer' %}
 
-<script type="text/javascript" src="https://www.sakazakiya.net/common/js/scrollreveal.min.js"></script>
+<script type="text/javascript" src="{{'assets/common/js/scrollreveal.min.js'|theme}}"></script>
 <script>
   window.sr = ScrollReveal();
   sr.reveal('.animate', { easing: 'ease', duration: 800, distance: '0px', opacity: 0, scale:0.8, viewFactor:0.2, mobile:true, reset:false });
 </script>
 </body>
-</html>";s:5:"mtime";i:1580889759;s:6:"markup";s:4440:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1580891686;s:6:"markup";s:4432:"<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -201,7 +201,7 @@
 
 {% partial 'index_footer' %}
 
-<script type="text/javascript" src="https://www.sakazakiya.net/common/js/scrollreveal.min.js"></script>
+<script type="text/javascript" src="{{'assets/common/js/scrollreveal.min.js'|theme}}"></script>
 <script>
   window.sr = ScrollReveal();
   sr.reveal('.animate', { easing: 'ease', duration: 800, distance: '0px', opacity: 0, scale:0.8, viewFactor:0.2, mobile:true, reset:false });
