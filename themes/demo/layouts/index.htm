@@ -45,12 +45,12 @@
 {"@type":"Organization","name":"\u5927\u962a\/\u65e5\u672c\u6a4b\u30c7\u30ea\u30d8\u30eb \u962a\u5d0e\u5c4b","url":"https:\/\/www.sakazakiya.net\/","telephone":"070-4086-7105","address":"\u5927\u962a\/\u65e5\u672c\u6a4b"}</script></head>
 <body class="bg_a1 tx_u1" id="index_body">
 <header class=" bounceIn wow data-wow-delay=".1s"">
-	<h1 class="tx_k1">大阪/日本橋デリヘル 阪崎屋</h1>
+	<h1 class="tx_k1">{{system.address}} {{system.name}}</h1>
 </header>
-<div id="topimg" class="bounceIn wow" data-wow-delay=".1s" ><h2>大阪/日本橋デリヘル 阪崎屋</h2></div>
+<div id="topimg" class="bounceIn wow" data-wow-delay=".1s" ><h2>{{system.address}} {{system.name}}</h2></div>
 <article>
 	<section>
-		<h2 class="catch tx_q1 bg_q1">大阪/日本橋デリヘル 阪崎屋</h2>
+		<h2 class="catch tx_q1 bg_q1">{{system.address}} {{system.name}}</h2>
 		<nav>
 			<a href="./top/" class="bg_e1 sd_a bd_a tx_e1 bounceInLeft wow" data-wow-delay=".1s"><span title="ENTER" class="font1 tx_d1">ENTER</span><br>- 18歳以上の方 -</a>
 			<a href="https://www.google.co.jp" class="bg_e1 sd_a bd_a tx_e1 bounceInRight wow" data-wow-delay=".1s"><span title="LEAVE" class="font1 tx_d1">LEAVE</span><br>- 18歳未満の方 -</a>
@@ -74,31 +74,14 @@
 ぜひ一度ご体験していただきます。		</p>
 	</div>
 </main>
-<section class="outlink">
-	<div class="link_list" id="bnr468">
-		<a href="https://www.dto.jp/shop/30164" target="_blank" class="fade bounceIn wow" data-wow-delay=".1s"><img src="https://www.sakazakiya.net/img/pic/46860_4.png?t=1581834845" width="468" height="60" alt="デリヘルタウン版はコチラ"></a>
-		<a href="https://www.dto.jp/shop/30164/diary" target="_blank" class="fade bounceIn wow" data-wow-delay=".1s"><img src="https://www.sakazakiya.net/img/pic/46860_5.png?t=1581834845" width="468" height="60" alt="デリヘルタウン版写メ日記はコチラ"></a>
-		<a href="https://www.girlsheaven-job.net/osaka/ma-49/sa-470/" target="_blank" class="fade bounceIn wow" data-wow-delay=".1s"><img src="https://www.sakazakiya.net/img/pic/46860_6.png?t=1581834845" width="468" height="60" alt="日本橋の風俗求人｜ガールズヘブン"></a>
-	</div>
-	<div class="link_list" id="bnr88">
-		<a href="https://qzin.jp/" target="_blank" class="fade bounceIn wow" data-wow-delay=".1s"><img src="https://www.sakazakiya.net/img/pic/8831_1.gif?t=1581834845" width="88" height="31" alt="風俗求人バニラ"></a>
-		<a href="http://fujoho.jp/" target="_blank" class="fade bounceIn wow" data-wow-delay=".1s"><img src="https://www.sakazakiya.net/img/pic/8831_3.gif?t=1581834845" width="88" height="31" alt="口ｺﾐ風俗情報局"></a>
-	</div>
-</section>
+{% partial 'index_ad' %}
 <footer>
 	<div id="footer">
 		<div id="up"><a href="#" data-scroll class="font1 tx_f1 bd_n">PAGE UP</a></div>
 		<div id="finfo" class="tx_i1">
-			<h2>大阪/日本橋デリヘル 阪崎屋</h2>
-			<p><em class="tx_h1">OPEN.</em>14:00～翌3:00</p>
-      		<p><em class="tx_h1">TEL.</em>070-4086-7105</p>
-			<div id="ad">
-				<span class="tx_h1">Powered by</span> <a href="https://web.fucolle.com/" target="_blank" class="tx_i1">風俗店ホームページ制作屋さん</a><br><em>　</em><span class="tx_h1">Designed by</span> <a href="https://hp.fucolle.com/" target="_blank" class="tx_i1">デリヘル無料ホームページ制作</a>
-			</div>
-		</div>
-		<div id="copy" class="font1 tx_j1">
-			Copyright &#169; 2019 FUCOLLE.COM All Rights Reserved.<br>
-			It Supports It to the <a href="https://delijob.fucolle.com/" title="デリヘルでバイト！" target="_blank" class="tx_j1">JOB</a> &amp; <a href="https://away.fucolle.com/" title="風俗出稼ぎねっと" target="_blank" class="tx_j1">AWAY</a>.<br>
+			<h2>{{system.address}} {{system.name}}</h2>
+			<p><em class="tx_h1">OPEN.</em>{{system.open_hour}}</p>
+			<p><em class="tx_h1">TEL.</em>{{system.tel}}</p>
 		</div>
 	</div>
 </footer>

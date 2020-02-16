@@ -284,4 +284,5 @@
   'Benjamin\\Heroine\\Models\\JapanesePrice' => 'plugins\\benjamin\\heroine\\models\\JapanesePrice.php',
   'Benjamin\\Heroine\\Models\\ServicePrice' => 'plugins\\benjamin\\heroine\\models\\ServicePrice.php',
   'Benjamin\\Heroine\\Models\\TrafficPrice' => 'plugins\\benjamin\\heroine\\models\\TrafficPrice.php',
+  'backend\\Controllers\\media' => 'modules\\backend\\controllers\\media.php',
 );

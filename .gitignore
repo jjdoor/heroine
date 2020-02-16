@@ -4,3 +4,4 @@
 /storage/framework/sessions
 /storage/cms/cache
 /storage/cms/twig
+/storage/temp
