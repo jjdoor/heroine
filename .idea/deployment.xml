@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="octobercms">
+  <component name="PublishConfigData" serverName="octobercms.tao3w.com">
     <serverData>
-      <paths name="api_v2">
+      <paths name="api_v2.tao3w.com">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="cms.tao3w.com">
+      <paths name="composer_test.tao3w.com">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="octobercms">
+      <paths name="octobercms.tao3w.com">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

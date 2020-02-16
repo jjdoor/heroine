@@ -48,7 +48,8 @@ trait SecurityController
      */
     protected function verifyCsrfToken()
     {
-        if (!Config::get('cms.enableCsrfProtection', true)) {
+        $var = Config::get('cms.enableCsrfProtection', true);
+        if (!$var) {
             return true;
         }
 
