@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class System extends ComponentBase
 {
-    public $record;
+    public $system;
 
     public function componentDetails()
     {
@@ -21,7 +21,7 @@ class System extends ComponentBase
 
     public function onRun()
     {
-        $this->record = $this->page['record'] = $this->system();
+        $this->system = $this->page['system'] = $this->system();
     }
 
     protected function system(){

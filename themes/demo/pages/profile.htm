@@ -4,11 +4,10 @@ layout = "profile"
 is_hidden = 0
 
 [member]
-identifierValue = "{{ :id }}"
-modelKeyColumn = "id"
-notFoundMessage = "Record not found"
+
+[system]
 ==
-<?
+<?php
 function onStart() {
     $this['hello'] = "Hello world!";
 }
@@ -18,7 +17,7 @@ function onStart() {
 {% set gallerys = member.gallery %}
 <main id="sb-site" class="main_content">
 	<div class="pt bg_x1">
-		<p class="pan tx_c2"><a href="https://www.sakazakiya.net/" class="tx_u1">大阪/日本橋デリヘル 阪崎屋</a> ≫ <a href="https://www.sakazakiya.net/top/" class="tx_u1">トップページ</a> ≫ <a href="https://www.sakazakiya.net/staff/" class="tx_u1">在籍一覧</a> ≫ <span class="tx_u1">プロフィール:松月(小潔)</span></p>
+		<p class="pan tx_c2"><a href="{{'top'|app}}" class="tx_u1">{{record.address}} {{record.name}}</a> ≫ <a href="{{'top'|app}}" class="tx_u1">トップページ</a> ≫ <a href="{{'staff'|app}}" class="tx_u1">在籍一覧</a> ≫ <span class="tx_u1">プロフィール:{{member.name}}</span></p>
 		<h2 class="page_title bd_i tx_b2"><em class="font1 bd_j tx_a2"><span title="PROFILE" class="bg_r1">PROFILE</span></em><br>プロフィール:{{member.name}}</h2>
 	</div>
 	<div id="cnt">
@@ -59,14 +58,6 @@ function onStart() {
 
 										{% endif %}
 									{% endfor %}
-									<!--<li class="ok bounceIn wow" data-wow-delay=".2s">パンスト</li>
-									<li class="ng bounceIn wow" data-wow-delay=".3s">アナル舐め</li>
-									<li class="ng bounceIn wow" data-wow-delay=".1s">顔射</li>
-									<li class="ng bounceIn wow" data-wow-delay=".2s">ゴックン</li>
-									<li class="ok bounceIn wow" data-wow-delay=".3s">パンティー</li>
-									<li class="ng bounceIn wow" data-wow-delay=".1s">オナニー鑑賞</li>
-									<li class="ng bounceIn wow" data-wow-delay=".2s">聖水</li>
-									<li class="ok bounceIn wow" data-wow-delay=".3s">足コキ</li>-->
 								</ul>
 							</div>
 						</div>
@@ -127,46 +118,6 @@ function onStart() {
 											</tr>
 										{% endif %}
 									{% endfor %}
-									<!--<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">莞式</th>
-										<td class="bd_e">✖</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">毒龙钻</th>
-										<td class="bd_e">✖</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">69</th>
-										<td class="bd_e">✖</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">指入れ</th>
-										<td class="bd_e">✖</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">kiss</th>
-										<td class="bd_e">✖</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">口内射精</th>
-										<td class="bd_e">✖</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">3P</th>
-										<td class="bd_e">〇</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">生フェラ</th>
-										<td class="bd_e">〇</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">素股</th>
-										<td class="bd_e">〇</td>
-									</tr>
-									<tr class="bounceInLeft wow" data-wow-delay=".1s">
-										<th class="tx_w1 bd_e">マッサージ</th>
-										<td class="bd_e">〇</td>
-									</tr>-->
 								</table>
 							</div>
 							<div class="data_r bounceInRight wow" data-wow-delay=".2s">
@@ -177,29 +128,7 @@ function onStart() {
 				</div>
 			</div>
 		</div>
-		<div id="sp_shopinfo">
-			<div class="sibt bd_h">
-				<a href="tel:07040867105" class="stel tx_u1 bg_i1 bd_e bounceIn wow" data-wow-delay=".1s">
-					<span></span>
-					<em class="tx_v1">070-4086-7105</em><br>
-					お店への電話はこちら
-				</a>
-				<a href="https://line.me/ti/p/jUprR4aPLj" target="_blank" class="sline tx_u1 bg_i1 bd_e bounceIn wow" data-wow-delay=".1s">
-					<span></span>
-					<em class="tx_v1">sakazakiya</em><br>
-					<i>LINEでのお問い合わせはこちら</i>
-				</a>
-			</div>
-		</div>
+		{% partial 'shop_info' %}
 	</div>
-	<div id="page-top">
-		<div class="spft">
-			<a href="tel:07040867105" class="spft_in bg_d2 spfttel1">
-				<p class="ftel"><span class="bd_q1"></span><em>お店に電話する</em><br>070-4086-7105</p>
-			</a>
-			<a href="#" data-scroll class="spft_in bg_e2">
-				<p class="fup"><em>PAGE UP</em></p>
-			</a>
-		</div>
-	</div>
+	{% partial 'page_top' %}
 </main>

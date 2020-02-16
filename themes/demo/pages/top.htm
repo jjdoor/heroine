@@ -1,5 +1,5 @@
-title = "Index"
-url = "/:index?"
+title = "Top"
+url = "/top"
 layout = "top"
 is_hidden = 0
 
@@ -7,7 +7,7 @@ is_hidden = 0
 
 [system]
 ==
-<?
+<?php
 function onStart() {
     $this->addCss('assets/top/sp_jquery.bxslider.css');
     $this->addCss('assets/top/style.css');
@@ -18,13 +18,6 @@ function onStart() {
 {% set members = members %}
 <main id="sb-site" class="main_content">
   <div id="cnt">
-    <!--<div class="toppage_box bg_j1">
-      <div id="rss" class="bounceInLeft wow" data-wow-delay=".1s">
-        <div id="rss_l" class="title title_r bg_f2 sd_a bd_a tx_e1"><em title="SHOP BLOG" class="font1 tx_d1">SHOP BLOG</em><br>
-          店舗ブログ</div>
-        <div id="rss_r" class="bd_h bg_v1"> <a href="https://sakazakiya0704.blog.fc2.com/blog-entry-1.html" target="_blank" class="bd_e tx_u1"><em>2020/01/10(金)16:20</em><span class="tx_v1">民族衣装の私、ミラ</span></a> </div>
-      </div>
-    </div>-->
     <div class="toppage_box bg_j1">
       <div id="schedule" class="bounceInLeft wow" data-wow-delay=".1s">
         <h2 class="title bg_f2 sd_a bd_a tx_e1"><em title="TODAY’S SCHEDULE" class="font1 tx_d1">TODAY’S SCHEDULE</em><br>
@@ -50,7 +43,7 @@ function onStart() {
     </div>
     <div id="shopinfo_bg" class="toppage_box bg_j1">
       <div id="shopinfo" class="bd_h bg_v1 bounceInUp wow" data-wow-delay=".1s">
-        <h3 class="tx_w1">{{record.address}}  {{record.name}}</h3>
+        <h3 class="tx_w1">{{system.address}}  {{system.name}}</h3>
         <ul>
           <li class="bd_e">
             <div class="sibox">
@@ -61,25 +54,25 @@ function onStart() {
           <li class="bd_e">
             <div class="sibox">
               <div class="sibox_l tx_w1">住所</div>
-              <div class="sibox_r">{{record.address}}[<a href="{{'access'|app}}">アクセスマップ</a>]</div>
+              <div class="sibox_r">{{system.address}}[<a href="{{'access'|app}}">アクセスマップ</a>]</div>
             </div>
           </li>
           <li class="bd_e">
             <div class="sibox">
               <div class="sibox_l tx_w1">発エリア</div>
-              <div class="sibox_r">{{record.address}}</div>
+              <div class="sibox_r">{{system.address}}</div>
             </div>
           </li>
           <li class="bd_e">
             <div class="sibox">
               <div class="sibox_l tx_w1">出張範囲</div>
-              <div class="sibox_r">{{record.address}}　{{record.address}}外要相談</div>
+              <div class="sibox_r">{{system.address}}　{{system.address}}外要相談</div>
             </div>
           </li>
           <li class="bd_e">
             <div class="sibox">
               <div class="sibox_l tx_w1">営業時間</div>
-              <div class="sibox_r">{{record.open_hour}}</div>
+              <div class="sibox_r">{{system.open_hour}}</div>
             </div>
           </li>
           <li class="bd_e">
@@ -89,17 +82,10 @@ function onStart() {
             </div>
           </li>
         </ul>
-        <div class="sibt"> <a href="tel:07040867105" class="stel tx_u1 bg_i1 bd_e"> <span></span> <em class="tx_v1">{{record.tel}}</em><br>
+        <div class="sibt"> <a href="tel:{{system.tel}}" class="stel tx_u1 bg_i1 bd_e"> <span></span> <em class="tx_v1">{{system.tel}}</em><br>
           お店への電話はこちら </a>  </div>
       </div>
     </div>
   </div>
-  <div id="page-top">
-    <div class="spft"> <a href="tel:07040867105" class="spft_in bg_d2 spfttel1">
-      <p class="ftel"><span class="bd_q1"></span><em>お店に電話する</em><br>
-        {{record.tel}}</p>
-      </a> <a href="#" data-scroll class="spft_in bg_e2">
-      <p class="fup"><em>PAGE UP</em></p>
-      </a> </div>
-  </div>
+  {% partial 'page_top' %}
 </main>
