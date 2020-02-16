@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed609b3a-b307-4709-b248-4030eb6a7721" name="Default Changelist" comment="" />
+    <list default="true" id="ed609b3a-b307-4709-b248-4030eb6a7721" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/system/columns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/system/columns.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/system/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/system/fields.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/updates/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/updates/version.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/03/f4/desc.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/0b/b3/header.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/1d/76/index.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/4b/28/menu.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/51/d2/index.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/8f/a3/index_footer.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/0b/0b2f3cb904001d12818ae05cec7f987a6c332ecde920d66d728847496594fae1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/5a/5a2f17d031bb9a43c716557424650c0606d8894f01eb3ed036a92976d5761312.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/6a/6a70583ef1f08890766d1670b2416108bb0490f2a9c07b307092e50d98565921.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/6b/6b14c356a6a5472003975d62aee4907bbffdf8bbc2de754749308ddade72f68f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/a5/a527f0fefd4b660bb795f17e37af4bcbf9a87799c6015bbeaef219c3f8fc0f81.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/fa/fa34385e9cbee3968a086edf720347786f7e3bb70527352d08cf6720bb2e892a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/layouts/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/layouts/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/layouts/staff.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/layouts/staff.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/layouts/system.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/layouts/system.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/pages/access.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/access.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/pages/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/pages/schedule.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/schedule.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/pages/staff.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/staff.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/pages/system.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/system.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/partials/footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/partials/footer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/partials/index_footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/partials/index_footer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/partials/menu.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/partials/menu.htm" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +60,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -81,7 +111,9 @@
       <workItem from="1581689054590" duration="3287000" />
       <workItem from="1581700896504" duration="1037000" />
       <workItem from="1581742840593" duration="9456000" />
-      <workItem from="1581821030432" duration="3073000" />
+      <workItem from="1581821030432" duration="5532000" />
+      <workItem from="1581836877363" duration="12293000" />
+      <workItem from="1581862023389" duration="272000" />
     </task>
     <servers />
   </component>
@@ -169,10 +201,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="888" height="498" key="SwitcherDM/0.0.1920.1032@0.0.1920.1032" timestamp="1580890674782" />
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1581821030503">
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1581862023437">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1581821030503" />
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1581862023437" />
     <state x="703" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580792649394">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -181,14 +213,14 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="208" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1032@0.0.1920.1032" timestamp="1580646764109" />
-    <state x="115" y="126" width="1084" height="612" key="find.popup" timestamp="1581832403764">
+    <state x="115" y="126" width="1084" height="612" key="find.popup" timestamp="1581861076593">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="115" y="126" width="1084" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581832403764" />
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1581833113854">
+    <state x="115" y="126" width="1084" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581861076593" />
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1581860834136">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581833113854" />
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581860834136" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -26,3 +26,6 @@ columns:
     name:
         label: name
         type: text
+    en_name:
+        label: 站点英文名
+        type: text

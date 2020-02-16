@@ -60,3 +60,6 @@
 1.0.21:
     - 'Updated table benjamin_heroine_system'
     - builder_table_update_benjamin_heroine_system_2.php
+1.0.22:
+    - 'Updated table benjamin_heroine_system'
+    - builder_table_update_benjamin_heroine_system_3.php

@@ -4,11 +4,13 @@ layout = "staff"
 is_hidden = 0
 
 [members]
+
+[system]
 ==
 <main id="sb-site" class="main_content">
 	<div class="pt bg_x1">
-		<p class="pan tx_c2"><a href="https://www.sakazakiya.net/" class="tx_u1">大阪/日本橋デリヘル 阪崎屋</a> ≫ <a href="https://www.sakazakiya.net/top/" class="tx_u1">トップページ</a> ≫ <span class="tx_u1">在籍一覧</span></p>
-		<h2 class="page_title bd_i tx_b2"><em class="font1 bd_j tx_a2"><span title="CAST" class="bg_r1">CAST</span></em><br>在籍一覧</h2>
+		<p class="pan tx_c2"><a href="{{'index'|app}}" class="tx_u1">{{record.address}} {{record.name}}</a> ≫ <a href="{{'top'|app}}" class="tx_u1">トップページ</a> ≫ <span class="tx_u1">スケジュール</span></p>
+		<h2 class="page_title bd_i tx_b2"><em class="font1 bd_j tx_a2"><span title="SCHEDULE" class="bg_r1">SCHEDULE</span></em><br>スケジュール</h2>
 	</div>
 	<div id="cnt" class="bg_j1">
 		<div id="companion">
@@ -30,29 +32,7 @@ is_hidden = 0
 				{% endfor %}
 			</ul>
 		</div>
-		<div id="sp_shopinfo">
-			<div class="sibt bd_h">
-				<a href="tel:07040867105" class="stel tx_u1 bg_i1 bd_e bounceIn wow" data-wow-delay=".1s">
-					<span></span>
-					<em class="tx_v1">070-4086-7105</em><br>
-					お店への電話はこちら
-				</a>
-				<a href="https://line.me/ti/p/jUprR4aPLj" target="_blank" class="sline tx_u1 bg_i1 bd_e bounceIn wow" data-wow-delay=".1s">
-					<span></span>
-					<em class="tx_v1">sakazakiya</em><br>
-					<i>LINEでのお問い合わせはこちら</i>
-				</a>
-			</div>
-		</div>
+		{% partial 'shop_info' %}
 	</div>
-	<div id="page-top">
-		<div class="spft">
-			<a href="tel:07040867105" class="spft_in bg_d2 spfttel1">
-				<p class="ftel"><span class="bd_q1"></span><em>お店に電話する</em><br>070-4086-7105</p>
-			</a>
-			<a href="#" data-scroll class="spft_in bg_e2">
-				<p class="fup"><em>PAGE UP</em></p>
-			</a>
-		</div>
-	</div>
+	{% partial 'page_top' %}
 </main>
