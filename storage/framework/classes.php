@@ -285,4 +285,6 @@
   'Benjamin\\Heroine\\Models\\ServicePrice' => 'plugins\\benjamin\\heroine\\models\\ServicePrice.php',
   'Benjamin\\Heroine\\Models\\TrafficPrice' => 'plugins\\benjamin\\heroine\\models\\TrafficPrice.php',
   'backend\\Controllers\\media' => 'modules\\backend\\controllers\\media.php',
+  'system\\Controllers\\settings' => 'modules\\system\\controllers\\settings.php',
+  'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
 );
