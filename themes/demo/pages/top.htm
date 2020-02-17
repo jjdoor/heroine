@@ -27,7 +27,7 @@ function onStart() {
 		    {% for member in members %}
             <li class="slide bg_com">
               	<div class="img">
-			  		<a href="{{'schedule'|app}}/{{member.id}}" class="fade"> <img src="{{member.album.path}}" alt="{{member.name}}"> </a>
+			  		<a href="{{'profile'|app}}/{{member.id}}" class="fade"> <img src="{{member.album.path}}" alt="{{member.name}}"> </a>
 					{% if member.is_new %}
 					<span class="icon bg_m1">NEWFACE</span>
 					{% endif %}

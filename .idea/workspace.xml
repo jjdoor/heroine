@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed609b3a-b307-4709-b248-4030eb6a7721" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cms.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/pages/top.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/top.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1581821030432" duration="5532000" />
       <workItem from="1581836877363" duration="12293000" />
       <workItem from="1581862023389" duration="8670000" />
-      <workItem from="1581919738978" duration="12634000" />
+      <workItem from="1581919738978" duration="12966000" />
     </task>
     <servers />
   </component>
@@ -195,10 +195,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="115" y="126" width="1084" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581958525731" />
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1581956032457">
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1581958831265">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581956032457" />
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1581958831265" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
