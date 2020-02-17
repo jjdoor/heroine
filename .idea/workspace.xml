@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed609b3a-b307-4709-b248-4030eb6a7721" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Member.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/member/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/member/fields.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/system/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/system/fields.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/updates/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/updates/version.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/assets/css/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/assets/css/color.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/layouts/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/layouts/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/layouts/system.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/layouts/system.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/profile.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/profile.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/system.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/system.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/top.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/top.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +86,7 @@
       <workItem from="1581821030432" duration="5532000" />
       <workItem from="1581836877363" duration="12293000" />
       <workItem from="1581862023389" duration="8670000" />
-      <workItem from="1581919738978" duration="11414000" />
+      <workItem from="1581919738978" duration="12109000" />
     </task>
     <servers />
   </component>
