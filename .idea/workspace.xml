@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed609b3a-b307-4709-b248-4030eb6a7721" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/assets/img/tmp/sp_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/assets/img/tmp/sp_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/assets/img/tmp/sp_top_header.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/assets/img/tmp/sp_top_header.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,8 @@
       <workItem from="1581742840593" duration="9456000" />
       <workItem from="1581821030432" duration="5532000" />
       <workItem from="1581836877363" duration="12293000" />
-      <workItem from="1581862023389" duration="8390000" />
+      <workItem from="1581862023389" duration="8670000" />
+      <workItem from="1581919738978" duration="1226000" />
     </task>
     <servers />
   </component>
@@ -164,18 +168,18 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1864" height="321" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580833581749" />
-    <state x="612" y="180" width="687" height="655" key="StructurePopup" timestamp="1580705703069">
+    <state x="612" y="180" width="687" height="655" key="StructurePopup" timestamp="1581919762868">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="612" y="180" width="687" height="655" key="StructurePopup/0.0.1920.1032@0.0.1920.1032" timestamp="1580705703069" />
+    <state x="612" y="180" width="687" height="655" key="StructurePopup/0.0.1920.1032@0.0.1920.1032" timestamp="1581919762868" />
     <state width="888" height="498" key="SwitcherDM" timestamp="1580890674782">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="888" height="498" key="SwitcherDM/0.0.1920.1032@0.0.1920.1032" timestamp="1580890674782" />
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1581862023437">
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1581919746066">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1581862023437" />
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1581919746066" />
     <state x="703" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580792649394">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
