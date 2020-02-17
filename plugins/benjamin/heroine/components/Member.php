@@ -108,7 +108,7 @@ class Member extends ComponentBase
     {
         $member = new \Benjamin\Heroine\Models\Member();
 //        die();
-        $record = $member->newQuery()->with(['service_content','album','gallery'])->first()->toArray();
+        $record = $member->newQuery()->with(['service_content','album','gallery'])->where("id","=",$this->param('id'))->first()->toArray();
 //        var_dump($list);
 //        die();
         return $record;

@@ -287,4 +287,7 @@
   'backend\\Controllers\\media' => 'modules\\backend\\controllers\\media.php',
   'system\\Controllers\\settings' => 'modules\\system\\controllers\\settings.php',
   'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
+  'benjamin\\movies\\Controllers\\movies' => 'plugins\\benjamin\\movies\\controllers\\movies.php',
+  'Benjamin\\Movies\\Models\\Movie' => 'plugins\\benjamin\\movies\\models\\Movie.php',
+  'benjamin\\heroine\\Controllers\\member' => 'plugins\\benjamin\\heroine\\controllers\\member.php',
 );

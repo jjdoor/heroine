@@ -11,6 +11,13 @@ fields:
         label: 年龄
         span: auto
         type: text
+    video:
+        label: 视频
+        mode: file
+        imageWidth: '100'
+        imageHeight: '100'
+        span: auto
+        type: mediafinder
 tabs:
     fields:
         top:

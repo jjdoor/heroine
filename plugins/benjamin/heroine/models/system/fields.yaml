@@ -19,8 +19,16 @@ fields:
         label: 地址
         span: auto
         type: text
+    travel_start_poine:
+        label: 出发地
+        span: auto
+        type: text
     notice:
         label: 注意事项
-        span: auto
         size: large
+        span: auto
         type: richeditor
+    travel_scope:
+        label: 出发范围
+        span: auto
+        type: text
