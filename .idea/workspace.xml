@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed609b3a-b307-4709-b248-4030eb6a7721" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/profile.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/profile.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,8 @@
       <workItem from="1581862023389" duration="8670000" />
       <workItem from="1581919738978" duration="13571000" />
       <workItem from="1581991126617" duration="3012000" />
-      <workItem from="1582000544021" duration="5900000" />
+      <workItem from="1582000544021" duration="6605000" />
+      <workItem from="1582009777771" duration="88000" />
     </task>
     <servers />
   </component>
@@ -180,10 +182,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="888" height="498" key="SwitcherDM/0.0.1920.1032@0.0.1920.1032" timestamp="1581933419594" />
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1582000546531">
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1582009778717">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582000546531" />
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582009778717" />
     <state x="703" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580792649394">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -196,10 +198,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="115" y="126" width="1084" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582005830709" />
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1582004960156">
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1582009799438">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582004960156" />
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582009799438" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
