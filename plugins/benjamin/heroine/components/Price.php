@@ -30,16 +30,16 @@ class Price extends ComponentBase
     protected function price(){
         /** @var Model $chinesePrice */
         $chinesePrice = new ChinesePrice();
-        $list['chinese'] = $chinesePrice->newQuery()->get()->toArray();
+        $list['chinese'] = $chinesePrice->newQuery()->orderByDesc('rank')->get()->toArray();
         /** @var Model $japanesePrice */
         $japanesePrice = new JapanesePrice();
-        $list['japanese'] = $japanesePrice->newQuery()->get()->toArray();
+        $list['japanese'] = $japanesePrice->newQuery()->orderByDesc('rank')->get()->toArray();
         /** @var Model $servicePrice */
         $servicePrice = new ServicePrice();
-        $list['service'] = $servicePrice->newQuery()->get()->toArray();
+        $list['service'] = $servicePrice->newQuery()->orderByDesc('rank')->get()->toArray();
         /** @var Model $trafficPrice */
         $trafficPrice = new TrafficPrice();
-        $list['traffic'] = $trafficPrice->newQuery()->get()->toArray();
+        $list['traffic'] = $trafficPrice->newQuery()->orderByDesc('rank')->get()->toArray();
         return $list;
     }
 

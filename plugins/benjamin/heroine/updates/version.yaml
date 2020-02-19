@@ -69,3 +69,15 @@
 1.0.24:
     - 'Updated table benjamin_heroine_system'
     - builder_table_update_benjamin_heroine_system_4.php
+1.0.25:
+    - 'Updated table benjamin_heroine_chinese_price'
+    - builder_table_update_benjamin_heroine_chinese_price_2.php
+1.0.26:
+    - 'Updated table benjamin_heroine_japanese_price'
+    - builder_table_update_benjamin_heroine_japanese_price_2.php
+1.0.27:
+    - 'Updated table benjamin_heroine_service_price'
+    - builder_table_update_benjamin_heroine_service_price.php
+1.0.28:
+    - 'Updated table benjamin_heroine_traffic_price'
+    - builder_table_update_benjamin_heroine_traffic_price.php

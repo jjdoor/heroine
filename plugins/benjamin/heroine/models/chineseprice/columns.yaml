@@ -1,6 +1,6 @@
 columns:
-    id:
-        label: id
+    rank:
+        label: 排序
         type: number
     name:
         label: name
@@ -9,11 +9,8 @@ columns:
         label: price
         type: text
     created_at:
-        label: created_at
-        type: datetime
-    updated_at:
         label: updated_at
         type: datetime
-    deleted_at:
+    updated_at:
         label: deleted_at
         type: datetime

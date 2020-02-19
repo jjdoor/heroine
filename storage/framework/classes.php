@@ -290,4 +290,8 @@
   'benjamin\\movies\\Controllers\\movies' => 'plugins\\benjamin\\movies\\controllers\\movies.php',
   'Benjamin\\Movies\\Models\\Movie' => 'plugins\\benjamin\\movies\\models\\Movie.php',
   'benjamin\\heroine\\Controllers\\member' => 'plugins\\benjamin\\heroine\\controllers\\member.php',
+  'benjamin\\heroine\\Controllers\\chineseprice' => 'plugins\\benjamin\\heroine\\controllers\\chineseprice.php',
+  'benjamin\\heroine\\Controllers\\serviceprice' => 'plugins\\benjamin\\heroine\\controllers\\serviceprice.php',
+  'benjamin\\heroine\\Controllers\\trafficprice' => 'plugins\\benjamin\\heroine\\controllers\\trafficprice.php',
+  'benjamin\\heroine\\Controllers\\japaneseprice' => 'plugins\\benjamin\\heroine\\controllers\\japaneseprice.php',
 );
