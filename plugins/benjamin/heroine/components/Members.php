@@ -27,6 +27,7 @@ class Members extends ComponentBase
     public function onRun()
     {
         $this->members = $this->page['members'] = $this->loadActors();
+
         $this->schedules = $this->page['schedules'] = $this->schedules();
         $this->times = $this->page['times'] = $this->time();
 //        $this->actors = Movie::query()->all();
@@ -56,6 +57,7 @@ class Members extends ComponentBase
         $list = $member->newQuery()
             ->with(['service_content','album','gallery'])
             ->orderByDesc('rank')
+            ->where($week,"<>","")
             ->get()
             ->map(function($v)use($week){
                 $v['current_open_houe'] = $v[$week];
