@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ed609b3a-b307-4709-b248-4030eb6a7721" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Price.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Price.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/chineseprice/columns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/chineseprice/columns.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/chineseprice/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/chineseprice/fields.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/japaneseprice/columns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/japaneseprice/columns.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/japaneseprice/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/japaneseprice/fields.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/serviceprice/columns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/serviceprice/columns.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/serviceprice/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/serviceprice/fields.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/trafficprice/columns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/trafficprice/columns.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/trafficprice/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/trafficprice/fields.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/member/columns.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/member/columns.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/models/member/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/models/member/fields.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/benjamin/heroine/updates/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/benjamin/heroine/updates/version.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
     </list>
@@ -101,7 +95,8 @@
       <workItem from="1581991126617" duration="3012000" />
       <workItem from="1582000544021" duration="6605000" />
       <workItem from="1582009777771" duration="236000" />
-      <workItem from="1582113935095" duration="1152000" />
+      <workItem from="1582113935095" duration="2173000" />
+      <workItem from="1582204586807" duration="432000" />
     </task>
     <servers />
   </component>
@@ -193,10 +188,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="888" height="498" key="SwitcherDM/0.0.1920.1032@0.0.1920.1032" timestamp="1581933419594" />
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1582113931224">
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1582204593781">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582113931224" />
+    <state x="574" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582204593781" />
     <state x="703" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580792649394">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -209,10 +204,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="115" y="126" width="1084" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582005830709" />
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1582115291126">
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup" timestamp="1582204967074">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582115291126" />
+    <state x="539" y="0" width="840" height="1030" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582204967074" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -264,12 +259,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php</url>
-          <line>68</line>
+          <line>69</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/plugins/benjamin/heroine/components/Members.php</url>
-          <line>85</line>
+          <line>87</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">

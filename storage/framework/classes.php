@@ -294,4 +294,9 @@
   'benjamin\\heroine\\Controllers\\serviceprice' => 'plugins\\benjamin\\heroine\\controllers\\serviceprice.php',
   'benjamin\\heroine\\Controllers\\trafficprice' => 'plugins\\benjamin\\heroine\\controllers\\trafficprice.php',
   'benjamin\\heroine\\Controllers\\japaneseprice' => 'plugins\\benjamin\\heroine\\controllers\\japaneseprice.php',
+  'RainLab\\Builder\\Classes\\PluginYamlModel' => 'plugins\\rainlab\\builder\\classes\\PluginYamlModel.php',
+  'RainLab\\Builder\\Classes\\PermissionsModel' => 'plugins\\rainlab\\builder\\classes\\PermissionsModel.php',
+  'RainLab\\Builder\\Classes\\MenusModel' => 'plugins\\rainlab\\builder\\classes\\MenusModel.php',
+  'RainLab\\Builder\\FormWidgets\\MenuEditor' => 'plugins\\rainlab\\builder\\formwidgets\\MenuEditor.php',
+  'RainLab\\Builder\\Classes\\IconList' => 'plugins\\rainlab\\builder\\classes\\IconList.php',
 );

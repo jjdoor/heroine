@@ -55,6 +55,7 @@ class Members extends ComponentBase
         $member = new Member();
         $list = $member->newQuery()
             ->with(['service_content','album','gallery'])
+            ->orderByDesc('rank')
             ->get()
             ->map(function($v)use($week){
                 $v['current_open_houe'] = $v[$week];
@@ -77,6 +78,7 @@ class Members extends ComponentBase
         $member = new Member();
         $list = $member->newQuery()
             ->with(['service_content','album','gallery'])
+            ->orderByDesc('rank')
             ->whereNotNull($week)
             ->get()->map(function($v)use($week){
                 $v['current_open_houe'] = $v[$week];
@@ -85,5 +87,4 @@ class Members extends ComponentBase
             ->toArray();
         return $list;
     }
-
 }

@@ -18,6 +18,10 @@ fields:
         imageHeight: '100'
         span: auto
         type: mediafinder
+    rank:
+        label: 排序
+        span: auto
+        type: number
 tabs:
     fields:
         top:

@@ -81,3 +81,6 @@
 1.0.28:
     - 'Updated table benjamin_heroine_traffic_price'
     - builder_table_update_benjamin_heroine_traffic_price.php
+1.0.29:
+    - 'Updated table benjamin_heroine_members'
+    - builder_table_update_benjamin_heroine_members_8.php
