@@ -43,7 +43,7 @@ function onStart() {
 		</div>
 		<div id="schedule" class="sche_b">
 			<ul>
-				{% for schedule in schedules %}
+				{% for schedule in members %}
 				<li class="bg_com bounceIn wow" data-wow-delay=".1s">
 					<div class="img">
 						<a href="{{ 'profile'|app }}/{{schedule.id}}" class="fade">
